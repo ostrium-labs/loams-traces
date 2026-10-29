@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "dataRevision": "e8b7a78adac523438830760f9a3f29f9a2ff30f2",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 549,
+      "sha256": "1819025dcdc894df937dbcb09659297790a761c795c33ec49a70ec65a84aaf02"
+    },
+    {
+      "path": "_headers",
+      "bytes": 180,
+      "sha256": "ddd19dd2ae85824ccbd11862c873f97dea839dc0b88b2226ef9194271cb3183b"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 1332,
+      "sha256": "41da46aca61fec08760a3b6f7b7720c1c3bfb133df479f9d1bc67d3960b873ca"
+    },
+    {
+      "path": "assets/index-B1zdQX87.css",
+      "bytes": 8640,
+      "sha256": "870179451752a6dcfe3c5a7333e01c0bc779d0611959459fc63e4eddd14fd2d4"
+    },
+    {
+      "path": "assets/index-DK5PUJf3.js",
+      "bytes": 432350,
+      "sha256": "a34f435d4458aaf038f38fc8ff9972aa949d8ed0ca3139eeb8e0396329498746"
+    },
+    {
+      "path": "wasm/duckdb-browser-eh.worker.js",
+      "bytes": 772759,
+      "sha256": "f8ab72b6b90b3ad83077d47426d4a99d5d9a4c7e07cba1a2be37d655adc7c1ab"
+    },
+    {
+      "path": "wasm/duckdb-browser-mvp.worker.js",
+      "bytes": 844644,
+      "sha256": "b0387027f174e2b60c2d5cfa31cecca9b89d8a9762346b6449a784cd1c4dde3c"
+    },
+    {
+      "path": "wasm/duckdb-eh.wasm.gz",
+      "bytes": 7649476,
+      "sha256": "1a217e7f6578f77af529a828bbda29a82080170413fbdce8aa8031c18ec98347"
+    },
+    {
+      "path": "wasm/duckdb-mvp.wasm.gz",
+      "bytes": 8701230,
+      "sha256": "782c270acb1830f14d8a3f607a80c2b3c99ceba158f897f28687a74f201c0d88"
+    }
+  ]
+}
