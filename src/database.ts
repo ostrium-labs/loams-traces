@@ -1,3 +1,4 @@
+import { decodeWasm } from "./wasm";
 import * as duckdb from "@duckdb/duckdb-wasm";
 import type { Span } from "./model";
 const asset = (name: string) => import.meta.env.BASE_URL + "wasm/" + name;
@@ -19,7 +20,16 @@ async function database() {
         new duckdb.ConsoleLogger(duckdb.LogLevel.ERROR),
         new Worker(bundle.mainWorker!),
       );
-      await db.instantiate(bundle.mainModule);
+      const response = await fetch(bundle.mainModule);
+      if (!response.ok) throw new Error(`Query engine download: HTTP ${response.status}`);
+      const module = URL.createObjectURL(
+        new Blob([await decodeWasm(await response.arrayBuffer())], { type: "application/wasm" }),
+      );
+      try {
+        await db.instantiate(module);
+      } finally {
+        URL.revokeObjectURL(module);
+      }
       return db;
     })().catch((error) => {
       instance = undefined;

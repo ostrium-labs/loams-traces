@@ -5,7 +5,7 @@
     {
       "path": "index.html",
       "bytes": 549,
-      "sha256": "1819025dcdc894df937dbcb09659297790a761c795c33ec49a70ec65a84aaf02"
+      "sha256": "b2b1f9a0d55a255b7cb16c088a845a43a5afea6da282b35c8650be540fedf16f"
     },
     {
       "path": "_headers",
@@ -23,9 +23,9 @@
       "sha256": "870179451752a6dcfe3c5a7333e01c0bc779d0611959459fc63e4eddd14fd2d4"
     },
     {
-      "path": "assets/index-DK5PUJf3.js",
-      "bytes": 432350,
-      "sha256": "a34f435d4458aaf038f38fc8ff9972aa949d8ed0ca3139eeb8e0396329498746"
+      "path": "assets/index-D2gLJ-09.js",
+      "bytes": 432946,
+      "sha256": "8e9b461c3b46c360d21c9e3d727fea29b2ae7f62c26cc85e42b6a1752329b2e4"
     },
     {
       "path": "wasm/duckdb-browser-eh.worker.js",
