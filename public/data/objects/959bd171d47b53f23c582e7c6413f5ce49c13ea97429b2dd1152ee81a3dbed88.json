@@ -1,0 +1,1 @@
+{"label":"kafka-consume-s2p2","scenario": "consume", "partitions": 2, "procs": 6, "size": 100, "acks": "1", "preloaded": 2348000, "consumed": 2348000, "seconds": 45.0, "msgs_per_s": 52181, "mb_per_s": 5.2}

@@ -1,0 +1,1 @@
+{"label":"kafka-consume-s4p2","in_flight": 5, "compression": "none", "scenario": "consume", "partitions": 2, "procs": 6, "size": 100, "acks": "1", "preloaded": 3585847, "consumed": 3585847, "seconds": 38.31, "msgs_per_s": 93611, "mb_per_s": 9.4}

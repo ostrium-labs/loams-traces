@@ -1,0 +1,1 @@
+{"label":"kafka-metadata-s2p2","scenario": "metadata", "partitions": 1, "procs": 6, "size": 100, "acks": "1", "requests": 958671, "seconds": 15.0, "req_per_s": 63899, "conns": 24, "depth": 32}

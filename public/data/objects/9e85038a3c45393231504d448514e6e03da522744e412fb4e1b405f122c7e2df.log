@@ -1,0 +1,66 @@
+   Compiling memchr v2.8.3
+   Compiling regex-syntax v0.8.11
+   Compiling log v0.4.33
+   Compiling libc v0.2.186
+   Compiling cfg-if v1.0.4
+   Compiling serde_core v1.0.228
+   Compiling zmij v1.0.23
+   Compiling serde_json v1.0.150
+   Compiling crossbeam-utils v0.8.22
+   Compiling same-file v1.0.6
+   Compiling itoa v1.0.18
+   Compiling termcolor v1.4.1
+   Compiling crossbeam-epoch v0.9.20
+   Compiling serde v1.0.228
+   Compiling encoding_rs v0.8.35
+   Compiling walkdir v2.5.0
+   Compiling crossbeam-deque v0.8.7
+   Compiling find-msvc-tools v0.1.9
+   Compiling shlex v2.0.1
+   Compiling proc-macro2 v1.0.106
+   Compiling pkg-config v0.3.33
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.46
+   Compiling anyhow v1.0.103
+   Compiling ripgrep v15.2.0 (/home/dinakaran/qrc-bench/ripgrep)
+   Compiling aho-corasick v1.1.4
+   Compiling grep-matcher v0.1.9 (/home/dinakaran/qrc-bench/ripgrep/crates/matcher)
+   Compiling textwrap v0.16.2
+   Compiling lexopt v0.3.2
+   Compiling glob v0.3.3
+   Compiling crossbeam-channel v0.5.16
+   Compiling encoding_rs_io v0.1.7
+   Compiling memmap2 v0.9.11
+   Compiling jobserver v0.1.35
+   Compiling syn v2.0.119
+   Compiling cc v1.2.67
+   Compiling regex-automata v0.4.15
+   Compiling pcre2-sys v0.2.10
+   Compiling pcre2 v0.2.11
+   Compiling serde_derive v1.0.228
+   Compiling grep-pcre2 v0.1.10 (/home/dinakaran/qrc-bench/ripgrep/crates/pcre2)
+   Compiling bstr v1.13.0
+   Compiling regex v1.13.0
+   Compiling globset v0.4.19 (/home/dinakaran/qrc-bench/ripgrep/crates/globset)
+   Compiling grep-regex v0.1.14 (/home/dinakaran/qrc-bench/ripgrep/crates/regex)
+   Compiling grep-searcher v0.1.17 (/home/dinakaran/qrc-bench/ripgrep/crates/searcher)
+   Compiling grep-printer v0.3.1 (/home/dinakaran/qrc-bench/ripgrep/crates/printer)
+   Compiling grep-cli v0.1.12 (/home/dinakaran/qrc-bench/ripgrep/crates/cli)
+   Compiling ignore v0.4.29 (/home/dinakaran/qrc-bench/ripgrep/crates/ignore)
+   Compiling grep v0.4.1 (/home/dinakaran/qrc-bench/ripgrep/crates/grep)
+      Timing report saved to /home/dinakaran/qrc-bench/ripgrep/target/cargo-timings/cargo-timing-20261022T173800645Z-e9373f2c0b0fb8c2.html
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.18s
+  Executable unittests src/lib.rs (target/debug/deps/globset-500d433c9232715c)
+  Executable unittests src/lib.rs (target/debug/deps/grep-01a0925f2a77ca71)
+  Executable unittests src/lib.rs (target/debug/deps/grep_cli-36c5064bad0d735b)
+  Executable unittests src/lib.rs (target/debug/deps/grep_matcher-c16d47265308b242)
+  Executable tests/tests.rs (target/debug/deps/integration-a22a4900733df2db)
+  Executable unittests src/lib.rs (target/debug/deps/grep_pcre2-8b1ec17fb4d8e743)
+  Executable unittests src/lib.rs (target/debug/deps/grep_printer-57ce1c8c1e5a1ee4)
+  Executable unittests src/lib.rs (target/debug/deps/grep_regex-a6acf16f5e81ad07)
+  Executable unittests src/lib.rs (target/debug/deps/grep_searcher-ec446767970f0c68)
+  Executable unittests src/lib.rs (target/debug/deps/ignore-cc4a09d0f6212520)
+  Executable tests/gitignore_matched_path_or_any_parents_tests.rs (target/debug/deps/gitignore_matched_path_or_any_parents_tests-25211826db0371ef)
+  Executable tests/gitignore_skip_bom.rs (target/debug/deps/gitignore_skip_bom-1a1d727109efb69e)
+  Executable unittests crates/core/main.rs (target/debug/deps/rg-79a74cf35081a8bd)
+  Executable tests/tests.rs (target/debug/deps/integration-a722a1be28446487)

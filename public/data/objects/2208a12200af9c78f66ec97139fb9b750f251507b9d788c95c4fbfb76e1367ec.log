@@ -1,0 +1,886 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.02s
+────────────
+ Nextest run ID e1a97188-416e-4b72-99cd-66bdff788e66 with nextest profile: default
+    Starting 1163 tests across 14 binaries (1 test skipped)
+        PASS [   0.003s] (   1/1163) globset glob::tests::allow_unclosed_class_negated_empty
+        PASS [   0.003s] (   2/1163) globset glob::tests::allow_unclosed_class_many
+        PASS [   0.003s] (   3/1163) globset glob::tests::allow_unclosed_class_negated_unclosed
+        PASS [   0.003s] (   4/1163) globset glob::tests::allow_unclosed_class_brace3
+        PASS [   0.004s] (   5/1163) globset glob::tests::allow_unclosed_class_empty1
+        PASS [   0.004s] (   6/1163) globset glob::tests::allow_unclosed_class_brace1
+        PASS [   0.004s] (   7/1163) globset glob::tests::cls10
+        PASS [   0.004s] (   8/1163) globset glob::tests::allow_unclosed_class_single
+        PASS [   0.004s] (   9/1163) globset glob::tests::allow_unclosed_class_empty2
+        PASS [   0.005s] (  10/1163) globset glob::tests::any1
+        PASS [   0.005s] (  11/1163) globset glob::tests::cls1
+        PASS [   0.006s] (  12/1163) globset glob::tests::cls11
+        PASS [   0.007s] (  13/1163) globset glob::tests::any2
+        PASS [   0.004s] (  14/1163) globset glob::tests::cls14
+        PASS [   0.004s] (  15/1163) globset glob::tests::cls12
+        PASS [   0.003s] (  16/1163) globset glob::tests::cls20
+        PASS [   0.004s] (  17/1163) globset glob::tests::cls15
+        PASS [   0.004s] (  18/1163) globset glob::tests::cls16
+        PASS [   0.004s] (  19/1163) globset glob::tests::cls18
+        PASS [   0.004s] (  20/1163) globset glob::tests::cls2
+        PASS [   0.009s] (  21/1163) globset glob::tests::allow_unclosed_class_brace2
+        PASS [   0.004s] (  22/1163) globset glob::tests::cls19
+        PASS [   0.005s] (  23/1163) globset glob::tests::cls17
+        PASS [   0.007s] (  24/1163) globset glob::tests::cls13
+        PASS [   0.004s] (  25/1163) globset glob::tests::cls21
+        PASS [   0.004s] (  26/1163) globset glob::tests::cls4
+        PASS [   0.003s] (  27/1163) globset glob::tests::cls5
+        PASS [   0.003s] (  28/1163) globset glob::tests::cls9
+        PASS [   0.003s] (  29/1163) globset glob::tests::cls6
+        PASS [   0.003s] (  30/1163) globset glob::tests::err_alt1
+        PASS [   0.005s] (  31/1163) globset glob::tests::cls3
+        PASS [   0.003s] (  32/1163) globset glob::tests::err_alt3
+        PASS [   0.003s] (  33/1163) globset glob::tests::err_alt4
+        PASS [   0.004s] (  34/1163) globset glob::tests::err_alt2
+        PASS [   0.004s] (  35/1163) globset glob::tests::cls8
+        PASS [   0.004s] (  36/1163) globset glob::tests::err_range1
+        PASS [   0.006s] (  37/1163) globset glob::tests::cls7
+        PASS [   0.004s] (  38/1163) globset glob::tests::err_unclosed1
+        PASS [   0.003s] (  39/1163) globset glob::tests::extract_baselit2
+        PASS [   0.005s] (  40/1163) globset glob::tests::err_range2
+        PASS [   0.004s] (  41/1163) globset glob::tests::extract_baselit3
+        PASS [   0.004s] (  42/1163) globset glob::tests::err_unclosed4
+        PASS [   0.004s] (  43/1163) globset glob::tests::extract_baselit1
+        PASS [   0.005s] (  44/1163) globset glob::tests::err_unclosed2
+        PASS [   0.004s] (  45/1163) globset glob::tests::err_unclosed3
+        PASS [   0.004s] (  46/1163) globset glob::tests::extract_basetoks1
+        PASS [   0.004s] (  47/1163) globset glob::tests::extract_basetoks2
+        PASS [   0.004s] (  48/1163) globset glob::tests::extract_basetoks3
+        PASS [   0.004s] (  49/1163) globset glob::tests::extract_basetoks4
+        PASS [   0.003s] (  50/1163) globset glob::tests::extract_basetoks7
+        PASS [   0.004s] (  51/1163) globset glob::tests::extract_basetoks5
+        PASS [   0.004s] (  52/1163) globset glob::tests::extract_ext1
+        PASS [   0.004s] (  53/1163) globset glob::tests::extract_basetoks6
+        PASS [   0.004s] (  54/1163) globset glob::tests::extract_ext2
+        PASS [   0.004s] (  55/1163) globset glob::tests::extract_ext3
+        PASS [   0.004s] (  56/1163) globset glob::tests::extract_ext7
+        PASS [   0.003s] (  57/1163) globset glob::tests::extract_lit2
+        PASS [   0.004s] (  58/1163) globset glob::tests::extract_lit1
+        PASS [   0.005s] (  59/1163) globset glob::tests::extract_ext4
+        PASS [   0.005s] (  60/1163) globset glob::tests::extract_ext5
+        PASS [   0.008s] (  61/1163) globset glob::tests::extract_baselit4
+        PASS [   0.004s] (  62/1163) globset glob::tests::extract_lit6
+        PASS [   0.005s] (  63/1163) globset glob::tests::extract_lit3
+        PASS [   0.004s] (  64/1163) globset glob::tests::extract_lit4
+        PASS [   0.004s] (  65/1163) globset glob::tests::extract_prefix1
+        PASS [   0.004s] (  66/1163) globset glob::tests::extract_lit7
+        PASS [   0.004s] (  67/1163) globset glob::tests::extract_lit5
+        PASS [   0.004s] (  68/1163) globset glob::tests::extract_lit8
+        PASS [   0.004s] (  69/1163) globset glob::tests::extract_prefix2
+        PASS [   0.004s] (  70/1163) globset glob::tests::extract_prefix4
+        PASS [   0.004s] (  71/1163) globset glob::tests::extract_prefix3
+        PASS [   0.008s] (  72/1163) globset glob::tests::extract_ext6
+        PASS [   0.003s] (  73/1163) globset glob::tests::extract_req_ext3
+        PASS [   0.004s] (  74/1163) globset glob::tests::extract_req_ext1
+        PASS [   0.003s] (  75/1163) globset glob::tests::extract_req_ext2
+        PASS [   0.003s] (  76/1163) globset glob::tests::extract_suffix1
+        PASS [   0.004s] (  77/1163) globset glob::tests::extract_req_ext5
+        PASS [   0.004s] (  78/1163) globset glob::tests::extract_req_ext8
+        PASS [   0.004s] (  79/1163) globset glob::tests::extract_req_ext9
+        PASS [   0.004s] (  80/1163) globset glob::tests::extract_req_ext6
+        PASS [   0.004s] (  81/1163) globset glob::tests::extract_suffix2
+        PASS [   0.003s] (  82/1163) globset glob::tests::extract_suffix4
+        PASS [   0.004s] (  83/1163) globset glob::tests::extract_suffix3
+        PASS [   0.004s] (  84/1163) globset glob::tests::extract_suffix5
+        PASS [   0.004s] (  85/1163) globset glob::tests::literal1
+        PASS [   0.004s] (  86/1163) globset glob::tests::extract_suffix6
+        PASS [   0.004s] (  87/1163) globset glob::tests::extract_suffix7
+        PASS [   0.007s] (  88/1163) globset glob::tests::extract_req_ext7
+        PASS [   0.004s] (  89/1163) globset glob::tests::literal2
+        PASS [   0.008s] (  90/1163) globset glob::tests::extract_req_ext4
+        PASS [   0.004s] (  91/1163) globset glob::tests::match1
+        PASS [   0.005s] (  92/1163) globset glob::tests::match10
+        PASS [   0.005s] (  93/1163) globset glob::tests::match3
+        PASS [   0.005s] (  94/1163) globset glob::tests::match2
+        PASS [   0.005s] (  95/1163) globset glob::tests::match4
+        PASS [   0.006s] (  96/1163) globset glob::tests::match6
+        PASS [   0.005s] (  97/1163) globset glob::tests::match9
+        PASS [   0.007s] (  98/1163) globset glob::tests::match7
+        PASS [   0.006s] (  99/1163) globset glob::tests::match8
+        PASS [   0.005s] ( 100/1163) globset glob::tests::matchalt10
+        PASS [   0.006s] ( 101/1163) globset glob::tests::matchalt1
+        PASS [   0.005s] ( 102/1163) globset glob::tests::matchalt17
+        PASS [   0.011s] ( 103/1163) globset glob::tests::match5
+        PASS [   0.006s] ( 104/1163) globset glob::tests::matchalt14
+        PASS [   0.006s] ( 105/1163) globset glob::tests::matchalt16
+        PASS [   0.006s] ( 106/1163) globset glob::tests::matchalt11
+        PASS [   0.007s] ( 107/1163) globset glob::tests::matchalt13
+        PASS [   0.004s] ( 108/1163) globset glob::tests::matchalt2
+        PASS [   0.005s] ( 109/1163) globset glob::tests::matchalt18
+        PASS [   0.004s] ( 110/1163) globset glob::tests::matchalt3
+        PASS [   0.005s] ( 111/1163) globset glob::tests::matchalt19
+        PASS [   0.007s] ( 112/1163) globset glob::tests::matchalt12
+        PASS [   0.004s] ( 113/1163) globset glob::tests::matchalt4
+        PASS [   0.008s] ( 114/1163) globset glob::tests::matchalt15
+        PASS [   0.004s] ( 115/1163) globset glob::tests::matchbackslash3
+        PASS [   0.005s] ( 116/1163) globset glob::tests::matchalt7
+        PASS [   0.005s] ( 117/1163) globset glob::tests::matchbackslash2
+        PASS [   0.004s] ( 118/1163) globset glob::tests::matchbackslash6
+        PASS [   0.008s] ( 119/1163) globset glob::tests::matchalt5
+        PASS [   0.006s] ( 120/1163) globset glob::tests::matchalt8
+        PASS [   0.005s] ( 121/1163) globset glob::tests::matchbackslash4
+        PASS [   0.006s] ( 122/1163) globset glob::tests::matchalt9
+        PASS [   0.005s] ( 123/1163) globset glob::tests::matchbackslash7
+        PASS [   0.006s] ( 124/1163) globset glob::tests::matchcasei2
+        PASS [   0.011s] ( 125/1163) globset glob::tests::matchalt6
+        PASS [   0.005s] ( 126/1163) globset glob::tests::matchnot12
+        PASS [   0.005s] ( 127/1163) globset glob::tests::matchnot10
+        PASS [   0.011s] ( 128/1163) globset glob::tests::matchbackslash1
+        PASS [   0.008s] ( 129/1163) globset glob::tests::matchcasei1
+        PASS [   0.006s] ( 130/1163) globset glob::tests::matchescape
+        PASS [   0.011s] ( 131/1163) globset glob::tests::matchbackslash5
+        PASS [   0.006s] ( 132/1163) globset glob::tests::matchnot13
+        PASS [   0.007s] ( 133/1163) globset glob::tests::matchnot11
+        PASS [   0.008s] ( 134/1163) globset glob::tests::matchcasei3
+        PASS [   0.008s] ( 135/1163) globset glob::tests::matchcasei4
+        PASS [   0.008s] ( 136/1163) globset glob::tests::matchnot1
+        PASS [   0.006s] ( 137/1163) globset glob::tests::matchnot14
+        PASS [   0.005s] ( 138/1163) globset glob::tests::matchnot15
+        PASS [   0.005s] ( 139/1163) globset glob::tests::matchnot17
+        PASS [   0.005s] ( 140/1163) globset glob::tests::matchnot20
+        PASS [   0.005s] ( 141/1163) globset glob::tests::matchnot21
+        PASS [   0.007s] ( 142/1163) globset glob::tests::matchnot18
+        PASS [   0.007s] ( 143/1163) globset glob::tests::matchnot22
+        PASS [   0.008s] ( 144/1163) globset glob::tests::matchnot19
+        PASS [   0.007s] ( 145/1163) globset glob::tests::matchnot23
+        PASS [   0.006s] ( 146/1163) globset glob::tests::matchnot24
+        PASS [   0.007s] ( 147/1163) globset glob::tests::matchnot25
+        PASS [   0.007s] ( 148/1163) globset glob::tests::matchnot27
+        PASS [   0.011s] ( 149/1163) globset glob::tests::matchnot2
+        PASS [   0.005s] ( 150/1163) globset glob::tests::matchnot29
+        PASS [   0.006s] ( 151/1163) globset glob::tests::matchnot28
+        PASS [   0.011s] ( 152/1163) globset glob::tests::matchnot26
+        PASS [   0.006s] ( 153/1163) globset glob::tests::matchnot8
+        PASS [   0.009s] ( 154/1163) globset glob::tests::matchnot30
+        PASS [   0.007s] ( 155/1163) globset glob::tests::matchnot5
+        PASS [   0.007s] ( 156/1163) globset glob::tests::matchnot6
+        PASS [   0.016s] ( 157/1163) globset glob::tests::matchnot16
+        PASS [   0.009s] ( 158/1163) globset glob::tests::matchnot4
+        PASS [   0.011s] ( 159/1163) globset glob::tests::matchnot3
+        PASS [   0.008s] ( 160/1163) globset glob::tests::matchnot7
+        PASS [   0.007s] ( 161/1163) globset glob::tests::matchpat1
+        PASS [   0.008s] ( 162/1163) globset glob::tests::matchpat2
+        PASS [   0.010s] ( 163/1163) globset glob::tests::matchnot9
+        PASS [   0.007s] ( 164/1163) globset glob::tests::matchpat3
+        PASS [   0.005s] ( 165/1163) globset glob::tests::matchrange2
+        PASS [   0.007s] ( 166/1163) globset glob::tests::matchpat5
+        PASS [   0.005s] ( 167/1163) globset glob::tests::matchrange3
+        PASS [   0.005s] ( 168/1163) globset glob::tests::matchrange11
+        PASS [   0.006s] ( 169/1163) globset glob::tests::matchrange1
+        PASS [   0.005s] ( 170/1163) globset glob::tests::matchrange4
+        PASS [   0.008s] ( 171/1163) globset glob::tests::matchpat7
+        PASS [   0.005s] ( 172/1163) globset glob::tests::matchrange5
+        PASS [   0.004s] ( 173/1163) globset glob::tests::matchrange9
+        PASS [   0.012s] ( 174/1163) globset glob::tests::matchpat4
+        PASS [   0.012s] ( 175/1163) globset glob::tests::matchpat6
+        PASS [   0.005s] ( 176/1163) globset glob::tests::matchrange8
+        PASS [   0.005s] ( 177/1163) globset glob::tests::matchrange7
+        PASS [   0.006s] ( 178/1163) globset glob::tests::matchrange6
+        PASS [   0.011s] ( 179/1163) globset glob::tests::matchrange12
+        PASS [   0.011s] ( 180/1163) globset glob::tests::matchrange10
+        PASS [   0.006s] ( 181/1163) globset glob::tests::matchrec13
+        PASS [   0.006s] ( 182/1163) globset glob::tests::matchrec14
+        PASS [   0.005s] ( 183/1163) globset glob::tests::matchrec17
+        PASS [   0.006s] ( 184/1163) globset glob::tests::matchrec19
+        PASS [   0.010s] ( 185/1163) globset glob::tests::matchrec10
+        PASS [   0.010s] ( 186/1163) globset glob::tests::matchrec1
+        PASS [   0.006s] ( 187/1163) globset glob::tests::matchrec18
+        PASS [   0.009s] ( 188/1163) globset glob::tests::matchrec12
+        PASS [   0.007s] ( 189/1163) globset glob::tests::matchrec15
+        PASS [   0.011s] ( 190/1163) globset glob::tests::matchrec11
+        PASS [   0.008s] ( 191/1163) globset glob::tests::matchrec16
+        PASS [   0.007s] ( 192/1163) globset glob::tests::matchrec20
+        PASS [   0.005s] ( 193/1163) globset glob::tests::matchrec22
+        PASS [   0.005s] ( 194/1163) globset glob::tests::matchrec25
+        PASS [   0.006s] ( 195/1163) globset glob::tests::matchrec21
+        PASS [   0.006s] ( 196/1163) globset glob::tests::matchrec24
+        PASS [   0.006s] ( 197/1163) globset glob::tests::matchrec23
+        PASS [   0.010s] ( 198/1163) globset glob::tests::matchrec2
+        PASS [   0.005s] ( 199/1163) globset glob::tests::matchrec33
+        PASS [   0.007s] ( 200/1163) globset glob::tests::matchrec31
+        PASS [   0.008s] ( 201/1163) globset glob::tests::matchrec3
+        PASS [   0.007s] ( 202/1163) globset glob::tests::matchrec32
+        PASS [   0.004s] ( 203/1163) globset glob::tests::matchrec8
+        PASS [   0.005s] ( 204/1163) globset glob::tests::matchrec34
+        PASS [   0.004s] ( 205/1163) globset glob::tests::matchrec5
+        PASS [   0.004s] ( 206/1163) globset glob::tests::matchrec7
+        PASS [   0.010s] ( 207/1163) globset glob::tests::matchrec26
+        PASS [   0.005s] ( 208/1163) globset glob::tests::matchrec6
+        PASS [   0.004s] ( 209/1163) globset glob::tests::matchslash1
+        PASS [   0.009s] ( 210/1163) globset glob::tests::matchrec4
+        PASS [   0.005s] ( 211/1163) globset glob::tests::matchslash2
+        PASS [   0.005s] ( 212/1163) globset glob::tests::matchslash5
+        PASS [   0.006s] ( 213/1163) globset glob::tests::matchslash3
+        PASS [   0.004s] ( 214/1163) globset glob::tests::re13
+        PASS [   0.005s] ( 215/1163) globset glob::tests::matchslash4
+        PASS [   0.004s] ( 216/1163) globset glob::tests::re10
+        PASS [   0.004s] ( 217/1163) globset glob::tests::re12
+        PASS [   0.004s] ( 218/1163) globset glob::tests::re11
+        PASS [   0.005s] ( 219/1163) globset glob::tests::re1
+        PASS [   0.004s] ( 220/1163) globset glob::tests::re14
+        PASS [   0.004s] ( 221/1163) globset glob::tests::re15
+        PASS [   0.003s] ( 222/1163) globset glob::tests::re19
+        PASS [   0.006s] ( 223/1163) globset glob::tests::re16
+        PASS [   0.004s] ( 224/1163) globset glob::tests::re2
+        PASS [   0.003s] ( 225/1163) globset glob::tests::re22
+        PASS [   0.003s] ( 226/1163) globset glob::tests::re24
+        PASS [   0.003s] ( 227/1163) globset glob::tests::re21
+        PASS [   0.004s] ( 228/1163) globset glob::tests::re17
+        PASS [   0.004s] ( 229/1163) globset glob::tests::re18
+        PASS [   0.004s] ( 230/1163) globset glob::tests::re23
+        PASS [   0.005s] ( 231/1163) globset glob::tests::re25
+        PASS [   0.004s] ( 232/1163) globset glob::tests::re27
+        PASS [   0.005s] ( 233/1163) globset glob::tests::re26
+        PASS [   0.006s] ( 234/1163) globset glob::tests::re20
+        PASS [   0.004s] ( 235/1163) globset glob::tests::re30
+        PASS [   0.004s] ( 236/1163) globset glob::tests::re34
+        PASS [   0.004s] ( 237/1163) globset glob::tests::re33
+        PASS [   0.004s] ( 238/1163) globset glob::tests::re32
+        PASS [   0.004s] ( 239/1163) globset glob::tests::re3
+        PASS [   0.004s] ( 240/1163) globset glob::tests::re29
+        PASS [   0.003s] ( 241/1163) globset glob::tests::re35
+        PASS [   0.004s] ( 242/1163) globset glob::tests::re28
+        PASS [   0.005s] ( 243/1163) globset glob::tests::re31
+        PASS [   0.004s] ( 244/1163) globset glob::tests::re36
+        PASS [   0.004s] ( 245/1163) globset glob::tests::re37
+        PASS [   0.004s] ( 246/1163) globset glob::tests::re5
+        PASS [   0.003s] ( 247/1163) globset glob::tests::re_casei
+        PASS [   0.003s] ( 248/1163) globset glob::tests::re8
+        PASS [   0.005s] ( 249/1163) globset glob::tests::re4
+        PASS [   0.004s] ( 250/1163) globset glob::tests::re9
+        PASS [   0.004s] ( 251/1163) globset glob::tests::re_slash1
+        PASS [   0.004s] ( 252/1163) globset glob::tests::re7
+        PASS [   0.004s] ( 253/1163) globset glob::tests::re_slash2
+        PASS [   0.006s] ( 254/1163) globset glob::tests::re_empty
+        PASS [   0.007s] ( 255/1163) globset glob::tests::re6
+        PASS [   0.005s] ( 256/1163) globset glob::tests::rseq1
+        PASS [   0.004s] ( 257/1163) globset glob::tests::rseq2
+        PASS [   0.004s] ( 258/1163) globset glob::tests::seq1
+        PASS [   0.004s] ( 259/1163) globset glob::tests::rseq4
+        PASS [   0.004s] ( 260/1163) globset glob::tests::rseq3
+        PASS [   0.024s] ( 261/1163) globset glob::tests::matchrec9
+        PASS [   0.004s] ( 262/1163) globset pathutil::tests::ext1
+        PASS [   0.005s] ( 263/1163) globset glob::tests::seq3
+        PASS [   0.005s] ( 264/1163) globset pathutil::tests::ext2
+        PASS [   0.005s] ( 265/1163) globset pathutil::tests::ext3
+        PASS [   0.006s] ( 266/1163) globset glob::tests::seq2
+        PASS [   0.007s] ( 267/1163) globset glob::tests::rseq5
+        PASS [   0.005s] ( 268/1163) globset pathutil::tests::ext4
+        PASS [   0.004s] ( 269/1163) globset pathutil::tests::name2
+        PASS [   0.004s] ( 270/1163) globset pathutil::tests::normal1
+        PASS [   0.004s] ( 271/1163) globset pathutil::tests::name3
+        PASS [   0.005s] ( 272/1163) globset pathutil::tests::name1
+        PASS [   0.004s] ( 273/1163) globset pathutil::tests::normal2
+        PASS [   0.004s] ( 274/1163) globset pathutil::tests::normal3
+        PASS [   0.006s] ( 275/1163) globset pathutil::tests::ext5
+        PASS [   0.004s] ( 276/1163) globset tests::default_set_is_empty_works
+        PASS [   0.004s] ( 277/1163) globset tests::debug
+        PASS [   0.004s] ( 278/1163) globset pathutil::tests::normal4
+        PASS [   0.008s] ( 279/1163) globset pathutil::tests::name4
+        PASS [   0.004s] ( 280/1163) globset tests::matches_all_literals
+        PASS [   0.004s] ( 281/1163) globset tests::matches_all_extensions
+        PASS [   0.004s] ( 282/1163) globset tests::matches_all_suffix
+        PASS [   0.006s] ( 283/1163) globset tests::empty_set_works
+        PASS [   0.004s] ( 284/1163) globset tests::matches_all_basename_literals
+        PASS [   0.004s] ( 285/1163) globset tests::matches_all_prefix
+        PASS [   0.004s] ( 286/1163) globset tests::escape
+        PASS [   0.004s] ( 287/1163) globset tests::set_does_not_remember
+        PASS [   0.005s] ( 288/1163) globset tests::matches_all_required_extensions
+        PASS [   0.006s] ( 289/1163) globset tests::matches_all_regex
+        PASS [   0.005s] ( 290/1163) globset tests::set_works
+        PASS [   0.003s] ( 291/1163) grep-cli escape::tests::nothing_hex2
+        PASS [   0.004s] ( 292/1163) grep-cli escape::tests::carriage
+        PASS [   0.003s] ( 293/1163) grep-cli escape::tests::nul
+        PASS [   0.003s] ( 294/1163) grep-cli escape::tests::nothing_simple
+        PASS [   0.003s] ( 295/1163) grep-cli escape::tests::nothing_hex1
+        PASS [   0.004s] ( 296/1163) grep-cli escape::tests::invalid_utf8
+        PASS [   0.004s] ( 297/1163) grep-cli escape::tests::backslash
+        PASS [   0.004s] ( 298/1163) grep-cli escape::tests::nl
+        PASS [   0.003s] ( 299/1163) grep-cli escape::tests::tab
+        PASS [   0.004s] ( 300/1163) grep-cli escape::tests::empty
+        PASS [   0.003s] ( 301/1163) grep-cli hostname::tests::print_hostname
+        PASS [   0.003s] ( 302/1163) grep-cli human::tests::invalid_empty
+        PASS [   0.003s] ( 303/1163) grep-cli human::tests::suffix_k
+        PASS [   0.003s] ( 304/1163) grep-cli human::tests::suffix_m
+        PASS [   0.003s] ( 305/1163) grep-cli human::tests::invalid_suffix
+        PASS [   0.003s] ( 306/1163) grep-cli pattern::tests::bytes
+        PASS [   0.004s] ( 307/1163) grep-cli human::tests::invalid_non_digit
+        PASS [   0.003s] ( 308/1163) grep-matcher interpolate::tests::find_cap_ref1
+        PASS [   0.004s] ( 309/1163) grep-cli human::tests::suffix_g
+        PASS [   0.007s] ( 310/1163) grep-cli escape::tests::nothing_hex0
+        PASS [   0.004s] ( 311/1163) grep-cli human::tests::suffix_none
+        PASS [   0.004s] ( 312/1163) grep-matcher interpolate::tests::find_cap_ref11
+        PASS [   0.005s] ( 313/1163) grep-matcher interpolate::tests::find_cap_ref10
+        PASS [   0.005s] ( 314/1163) grep-cli pattern::tests::os
+        PASS [   0.006s] ( 315/1163) grep-cli human::tests::invalid_overflow
+        PASS [   0.003s] ( 316/1163) grep-matcher interpolate::tests::find_cap_ref2
+        PASS [   0.003s] ( 317/1163) grep-matcher interpolate::tests::find_cap_ref3
+        PASS [   0.003s] ( 318/1163) grep-matcher interpolate::tests::find_cap_ref13
+        PASS [   0.004s] ( 319/1163) grep-matcher interpolate::tests::find_cap_ref12
+        PASS [   0.004s] ( 320/1163) grep-matcher interpolate::tests::find_cap_ref9
+        PASS [   0.004s] ( 321/1163) grep-matcher interpolate::tests::find_cap_ref4
+        PASS [   0.004s] ( 322/1163) grep-matcher interpolate::tests::find_cap_ref6
+        PASS [   0.004s] ( 323/1163) grep-matcher interpolate::tests::find_cap_ref8
+        PASS [   0.003s] ( 324/1163) grep-matcher interpolate::tests::interp11
+        PASS [   0.004s] ( 325/1163) grep-matcher interpolate::tests::interp10
+        PASS [   0.004s] ( 326/1163) grep-matcher interpolate::tests::interp12
+        PASS [   0.006s] ( 327/1163) grep-matcher interpolate::tests::find_cap_ref7
+        PASS [   0.003s] ( 328/1163) grep-matcher interpolate::tests::interp13
+        PASS [   0.005s] ( 329/1163) grep-matcher interpolate::tests::interp1
+        PASS [   0.003s] ( 330/1163) grep-matcher interpolate::tests::interp2
+        PASS [   0.003s] ( 331/1163) grep-matcher interpolate::tests::interp14
+        PASS [   0.003s] ( 332/1163) grep-matcher interpolate::tests::interp3
+        PASS [   0.007s] ( 333/1163) grep-matcher interpolate::tests::find_cap_ref5
+        PASS [   0.003s] ( 334/1163) grep-matcher interpolate::tests::interp5
+        PASS [   0.003s] ( 335/1163) grep-matcher interpolate::tests::interp6
+        PASS [   0.004s] ( 336/1163) grep-matcher interpolate::tests::interp7
+        PASS [   0.003s] ( 337/1163) grep-matcher interpolate::tests::interp8
+        PASS [   0.005s] ( 338/1163) grep-matcher interpolate::tests::interp4
+        PASS [   0.004s] ( 339/1163) grep-pcre2 matcher::tests::case_smart
+        PASS [   0.007s] ( 340/1163) grep-matcher interpolate::tests::interp9
+        PASS [   0.004s] ( 341/1163) grep-pcre2 matcher::tests::candidate_lines
+        PASS [   0.007s] ( 342/1163) grep-matcher::integration test_matcher::shortest_match
+        PASS [   0.009s] ( 343/1163) grep-matcher::integration test_matcher::find_iter
+        PASS [   0.010s] ( 344/1163) grep-matcher::integration test_matcher::find
+        PASS [   0.010s] ( 345/1163) grep-matcher::integration test_matcher::captures
+        PASS [   0.010s] ( 346/1163) grep-matcher::integration test_matcher::captures_iter
+        PASS [   0.010s] ( 347/1163) grep-matcher::integration test_matcher::try_captures_iter
+        PASS [   0.011s] ( 348/1163) grep-matcher::integration test_matcher::replace
+        PASS [   0.011s] ( 349/1163) grep-matcher::integration test_matcher::try_find_iter
+        PASS [   0.014s] ( 350/1163) grep-matcher::integration test_matcher::replace_with_captures
+        PASS [   0.014s] ( 351/1163) grep-matcher::integration test_matcher::no_captures
+        PASS [   0.005s] ( 352/1163) grep-printer hyperlink::tests::build_empty_format
+        PASS [   0.005s] ( 353/1163) grep-printer hyperlink::tests::alias_names_are_reasonable
+        PASS [   0.005s] ( 354/1163) grep-printer hyperlink::tests::aliases_are_sorted
+        PASS [   0.005s] ( 355/1163) grep-printer hyperlink::tests::parse_format
+        PASS [   0.005s] ( 356/1163) grep-pcre2 matcher::tests::line_terminator_crlf
+        PASS [   0.005s] ( 357/1163) grep-pcre2 matcher::tests::word
+        PASS [   0.005s] ( 358/1163) grep-printer hyperlink::tests::handle_alias
+        PASS [   0.005s] ( 359/1163) grep-printer hyperlink::tests::parse_invalid
+        PASS [   0.006s] ( 360/1163) grep-printer hyperlink::tests::aliases_are_valid_formats
+        PASS [   0.006s] ( 361/1163) grep-printer json::tests::always_begin_end_no_match
+        PASS [   0.005s] ( 362/1163) grep-printer json::tests::binary_detection
+        PASS [   0.009s] ( 363/1163) grep-printer hyperlink::tests::build_format
+        PASS [   0.005s] ( 364/1163) grep-printer jsont::tests::base64_basic
+        PASS [   0.005s] ( 365/1163) grep-printer json::tests::no_match
+        PASS [   0.005s] ( 366/1163) grep-printer standard::tests::byte_offset
+        PASS [   0.005s] ( 367/1163) grep-printer json::tests::max_matches
+        PASS [   0.004s] ( 368/1163) grep-printer standard::tests::context_break
+        PASS [   0.004s] ( 369/1163) grep-printer standard::tests::column_number
+        PASS [   0.004s] ( 370/1163) grep-printer standard::tests::context_break_multiple_no_heading
+        PASS [   0.011s] ( 371/1163) grep-printer hyperlink::tests::parse_valid
+        PASS [   0.005s] ( 372/1163) grep-printer standard::tests::context_break_multiple_heading
+        PASS [   0.007s] ( 373/1163) grep-printer json::tests::missing_crlf
+        PASS [   0.007s] ( 374/1163) grep-printer json::tests::max_matches_after_context
+        PASS [   0.008s] ( 375/1163) grep-printer standard::tests::byte_offset_multi_line
+        PASS [   0.004s] ( 376/1163) grep-printer standard::tests::heading
+        PASS [   0.009s] ( 377/1163) grep-printer standard::tests::column_number_multi_line
+        PASS [   0.004s] ( 378/1163) grep-printer standard::tests::invert_context_multi_line
+        PASS [   0.004s] ( 379/1163) grep-printer standard::tests::invert_context
+        PASS [   0.005s] ( 380/1163) grep-printer standard::tests::heading_multiple
+        PASS [   0.005s] ( 381/1163) grep-printer standard::tests::invert_context_only_matching_multi_line
+        PASS [   0.005s] ( 382/1163) grep-printer standard::tests::invert
+        PASS [   0.005s] ( 383/1163) grep-printer standard::tests::line_number
+        PASS [   0.006s] ( 384/1163) grep-printer standard::tests::invert_multi_line
+        PASS [   0.006s] ( 385/1163) grep-printer standard::tests::max_columns
+        PASS [   0.005s] ( 386/1163) grep-printer standard::tests::max_columns_with_count
+        PASS [   0.010s] ( 387/1163) grep-printer standard::tests::invert_context_only_matching
+        PASS [   0.007s] ( 388/1163) grep-printer standard::tests::max_columns_preview
+        PASS [   0.007s] ( 389/1163) grep-printer standard::tests::max_columns_with_count_preview_no_match
+        PASS [   0.010s] ( 390/1163) grep-printer standard::tests::line_number_multi_line
+        PASS [   0.010s] ( 391/1163) grep-printer standard::tests::max_columns_multi_line
+        PASS [   0.008s] ( 392/1163) grep-printer standard::tests::max_columns_with_count_preview_one_match
+        PASS [   0.008s] ( 393/1163) grep-printer standard::tests::max_matches_context
+        PASS [   0.005s] ( 394/1163) grep-printer standard::tests::max_matches_multi_line1
+        PASS [   0.009s] ( 395/1163) grep-printer standard::tests::max_matches
+        PASS [   0.004s] ( 396/1163) grep-printer standard::tests::max_matches_multi_line3
+        PASS [   0.009s] ( 397/1163) grep-printer standard::tests::max_columns_with_count_preview_two_matches
+        PASS [   0.005s] ( 398/1163) grep-printer standard::tests::no_heading
+        PASS [   0.011s] ( 399/1163) grep-printer standard::tests::max_matches_context_invert
+        PASS [   0.006s] ( 400/1163) grep-printer standard::tests::max_matches_multi_line4
+        PASS [   0.007s] ( 401/1163) grep-printer standard::tests::only_matching_max_columns_multi_line1
+        PASS [   0.007s] ( 402/1163) grep-printer standard::tests::only_matching_max_columns_preview
+        PASS [   0.011s] ( 403/1163) grep-printer standard::tests::max_matches_multi_line2
+        PASS [   0.007s] ( 404/1163) grep-printer standard::tests::only_matching_max_columns
+        PASS [   0.007s] ( 405/1163) grep-printer standard::tests::no_heading_multiple
+        PASS [   0.009s] ( 406/1163) grep-printer standard::tests::only_matching
+        PASS [   0.005s] ( 407/1163) grep-printer standard::tests::path
+        PASS [   0.005s] ( 408/1163) grep-printer standard::tests::path_terminator
+        PASS [   0.021s] ( 409/1163) grep-printer standard::tests::max_columns_multi_line_preview
+        PASS [   0.012s] ( 410/1163) grep-printer standard::tests::only_matching_max_columns_multi_line2
+        PASS [   0.006s] ( 411/1163) grep-printer standard::tests::per_match
+        PASS [   0.013s] ( 412/1163) grep-printer standard::tests::only_matching_max_columns_preview_multi_line1
+        PASS [   0.010s] ( 413/1163) grep-printer standard::tests::per_match_multi_line1
+        PASS [   0.012s] ( 414/1163) grep-printer standard::tests::only_matching_multi_line2
+        PASS [   0.016s] ( 415/1163) grep-printer standard::tests::only_matching_max_columns_preview_multi_line2
+        PASS [   0.005s] ( 416/1163) grep-printer standard::tests::regression_crlf_preserve
+        PASS [   0.006s] ( 417/1163) grep-printer standard::tests::regression_search_empty_with_crlf
+        PASS [   0.006s] ( 418/1163) grep-printer standard::tests::regression_after_context_with_match
+        PASS [   0.018s] ( 419/1163) grep-printer standard::tests::only_matching_multi_line1
+        PASS [   0.012s] ( 420/1163) grep-printer standard::tests::per_match_multi_line2_only_first_line
+        PASS [   0.013s] ( 421/1163) grep-printer standard::tests::per_match_multi_line2
+        PASS [   0.004s] ( 422/1163) grep-printer standard::tests::replacement_multi_line_diff_line_term
+        PASS [   0.019s] ( 423/1163) grep-printer standard::tests::per_match_multi_line1_only_first_line
+        PASS [   0.005s] ( 424/1163) grep-printer standard::tests::replacement_multi_line
+        PASS [   0.007s] ( 425/1163) grep-printer standard::tests::replacement_max_columns_preview2
+        PASS [   0.018s] ( 426/1163) grep-printer standard::tests::per_match_multi_line3_only_first_line
+        PASS [   0.008s] ( 427/1163) grep-printer standard::tests::replacement_multi_line_combine_lines
+        PASS [   0.010s] ( 428/1163) grep-printer standard::tests::reports_binary
+        PASS [   0.006s] ( 429/1163) grep-printer standard::tests::reports_match
+        PASS [   0.005s] ( 430/1163) grep-printer standard::tests::reports_stats
+        PASS [   0.004s] ( 431/1163) grep-printer standard::tests::reports_stats_multiple
+        PASS [   0.004s] ( 432/1163) grep-printer standard::tests::trim_ascii
+        PASS [   0.004s] ( 433/1163) grep-printer standard::tests::separator_path
+        PASS [   0.024s] ( 434/1163) grep-printer standard::tests::per_match_multi_line3
+        PASS [   0.004s] ( 435/1163) grep-printer standard::tests::trim_ascii_with_line_term
+        PASS [   0.003s] ( 436/1163) grep-printer summary::tests::count_max_matches
+        PASS [   0.004s] ( 437/1163) grep-printer summary::tests::count_matches
+        PASS [   0.003s] ( 438/1163) grep-printer summary::tests::count_no_path_even_with_path
+        PASS [   0.004s] ( 439/1163) grep-printer summary::tests::count_no_path
+        PASS [   0.009s] ( 440/1163) grep-printer standard::tests::separator_field
+        PASS [   0.005s] ( 441/1163) grep-printer standard::tests::trim_ascii_multi_line
+        PASS [   0.004s] ( 442/1163) grep-printer summary::tests::count_path
+        PASS [   0.004s] ( 443/1163) grep-printer summary::tests::count_path_field_separator
+        PASS [   0.004s] ( 444/1163) grep-printer summary::tests::count_path_terminator
+        PASS [   0.004s] ( 445/1163) grep-printer summary::tests::count_path_with_zero
+        PASS [   0.006s] ( 446/1163) grep-printer summary::tests::count_path_without_zero
+        PASS [   0.007s] ( 447/1163) grep-printer summary::tests::count_path_separator
+        PASS [   0.006s] ( 448/1163) grep-printer summary::tests::path_with_match_found
+        PASS [   0.005s] ( 449/1163) grep-printer summary::tests::path_with_match_not_found
+        PASS [   0.005s] ( 450/1163) grep-printer summary::tests::path_without_match_not_found
+        PASS [   0.006s] ( 451/1163) grep-printer summary::tests::path_without_match_error
+        PASS [   0.005s] ( 452/1163) grep-printer summary::tests::path_without_match_found
+        PASS [   0.010s] ( 453/1163) grep-printer summary::tests::path_with_match_error
+        PASS [   0.005s] ( 454/1163) grep-printer summary::tests::quiet
+        PASS [   0.004s] ( 455/1163) grep-printer util::tests::custom_decimal_format
+        PASS [   0.004s] ( 456/1163) grep-regex ast::tests::various
+        PASS [   0.004s] ( 457/1163) grep-regex ban::tests::various
+        PASS [   0.004s] ( 458/1163) grep-printer summary::tests::quiet_with_stats
+        PASS [   0.004s] ( 459/1163) grep-regex literal::tests::anything
+        PASS [   0.004s] ( 460/1163) grep-regex literal::tests::class
+        PASS [   0.004s] ( 461/1163) grep-regex literal::tests::case_insensitive_alternation
+        PASS [   0.003s] ( 462/1163) grep-regex literal::tests::crazy_repeats
+        PASS [   0.003s] ( 463/1163) grep-regex literal::tests::empty
+        PASS [   0.004s] ( 464/1163) grep-regex literal::tests::concat
+        PASS [   0.003s] ( 465/1163) grep-regex literal::tests::heuristics
+        PASS [   0.004s] ( 466/1163) grep-regex literal::tests::impossible
+        PASS [   0.004s] ( 467/1163) grep-regex literal::tests::look
+        PASS [   0.004s] ( 468/1163) grep-regex matcher::tests::case_smart
+        PASS [   0.004s] ( 469/1163) grep-regex literal::tests::literal
+        PASS [   0.005s] ( 470/1163) grep-regex literal::tests::repetition
+        PASS [   0.010s] ( 471/1163) grep-regex literal::tests::alternation
+        PASS [   0.005s] ( 472/1163) grep-regex literal::tests::various
+        PASS [   0.047s] ( 473/1163) grep-printer standard::tests::replacement
+        PASS [   0.007s] ( 474/1163) grep-regex literal::tests::optimize
+        PASS [   0.047s] ( 475/1163) grep-printer standard::tests::replacement_max_columns
+        PASS [   0.005s] ( 476/1163) grep-regex matcher::tests::line_terminator_error
+        PASS [   0.004s] ( 477/1163) grep-regex non_matching::tests::literal
+        PASS [   0.003s] ( 478/1163) grep-searcher line_buffer::tests::buffer_basics1
+        PASS [   0.006s] ( 479/1163) grep-regex non_matching::tests::dot
+        PASS [   0.004s] ( 480/1163) grep-searcher line_buffer::tests::buffer_basics2
+        PASS [   0.006s] ( 481/1163) grep-regex matcher::tests::word
+        PASS [   0.005s] ( 482/1163) grep-regex strip::tests::various
+        PASS [   0.007s] ( 483/1163) grep-regex non_matching::tests::anchor
+        PASS [   0.046s] ( 484/1163) grep-printer standard::tests::replacement_passthru
+        PASS [   0.046s] ( 485/1163) grep-printer standard::tests::replacement_only_matching
+        PASS [   0.012s] ( 486/1163) grep-regex matcher::tests::line_terminator
+        PASS [   0.004s] ( 487/1163) grep-searcher line_buffer::tests::buffer_basics4
+        PASS [   0.005s] ( 488/1163) grep-searcher line_buffer::tests::buffer_basics3
+        PASS [   0.004s] ( 489/1163) grep-searcher line_buffer::tests::buffer_binary_convert3
+        PASS [   0.004s] ( 490/1163) grep-searcher line_buffer::tests::buffer_binary_convert1
+        PASS [   0.048s] ( 491/1163) grep-printer standard::tests::replacement_max_columns_preview1
+        PASS [   0.004s] ( 492/1163) grep-searcher line_buffer::tests::buffer_binary_convert4
+        PASS [   0.010s] ( 493/1163) grep-regex matcher::tests::line_terminator_crlf
+        PASS [   0.005s] ( 494/1163) grep-searcher line_buffer::tests::buffer_binary_convert2
+        PASS [   0.004s] ( 495/1163) grep-searcher line_buffer::tests::buffer_binary_none
+        PASS [   0.004s] ( 496/1163) grep-searcher line_buffer::tests::buffer_binary_quit1
+        PASS [   0.004s] ( 497/1163) grep-searcher line_buffer::tests::buffer_binary_quit2
+        PASS [   0.003s] ( 498/1163) grep-searcher line_buffer::tests::buffer_empty
+        PASS [   0.004s] ( 499/1163) grep-searcher line_buffer::tests::buffer_binary_quit4
+        PASS [   0.004s] ( 500/1163) grep-searcher line_buffer::tests::buffer_limited_capacity2
+        PASS [   0.004s] ( 501/1163) grep-searcher line_buffer::tests::buffer_small_capacity
+        PASS [   0.004s] ( 502/1163) grep-searcher line_buffer::tests::buffer_limited_capacity1
+        PASS [   0.004s] ( 503/1163) grep-searcher line_buffer::tests::buffer_zero_capacity
+        PASS [   0.005s] ( 504/1163) grep-searcher line_buffer::tests::buffer_binary_quit5
+        PASS [   0.004s] ( 505/1163) grep-searcher line_buffer::tests::replace
+        PASS [   0.005s] ( 506/1163) grep-searcher line_buffer::tests::buffer_limited_capacity3
+        PASS [   0.004s] ( 507/1163) grep-searcher lines::tests::line_iter
+        PASS [   0.004s] ( 508/1163) grep-searcher lines::tests::line_count
+        PASS [   0.004s] ( 509/1163) grep-searcher lines::tests::line_iter_empty
+        PASS [   0.010s] ( 510/1163) grep-searcher line_buffer::tests::buffer_binary_quit3
+        PASS [   0.005s] ( 511/1163) grep-searcher lines::tests::preceding_lines_empty1
+        PASS [   0.006s] ( 512/1163) grep-searcher lines::tests::preceding_lines_doc
+        PASS [   0.006s] ( 513/1163) grep-searcher lines::tests::line_locate_weird
+        PASS [   0.005s] ( 514/1163) grep-searcher searcher::glue::tests::basic2
+        PASS [   0.006s] ( 515/1163) grep-searcher lines::tests::preceding_lines_sherlock
+        PASS [   0.006s] ( 516/1163) grep-searcher lines::tests::preceding_lines_short
+        PASS [   0.006s] ( 517/1163) grep-searcher searcher::glue::tests::basic1
+        PASS [   0.006s] ( 518/1163) grep-searcher lines::tests::preceding_lines_empty2
+        PASS [   0.007s] ( 519/1163) grep-searcher lines::tests::line_locate
+        PASS [   0.006s] ( 520/1163) grep-searcher searcher::glue::tests::basic3
+        PASS [   0.007s] ( 521/1163) grep-searcher searcher::glue::tests::basic4
+        PASS [   0.005s] ( 522/1163) grep-searcher searcher::glue::tests::context_sherlock1
+        PASS [   0.005s] ( 523/1163) grep-searcher searcher::glue::tests::context_code1
+        PASS [   0.005s] ( 524/1163) grep-searcher searcher::glue::tests::context_code2
+        PASS [   0.006s] ( 525/1163) grep-searcher searcher::glue::tests::binary2
+        PASS [   0.006s] ( 526/1163) grep-searcher searcher::glue::tests::binary1
+        PASS [   0.006s] ( 527/1163) grep-searcher searcher::glue::tests::context_code3
+        PASS [   0.005s] ( 528/1163) grep-searcher searcher::glue::tests::context_sherlock3
+        PASS [   0.005s] ( 529/1163) grep-searcher searcher::glue::tests::context_sherlock4
+        PASS [   0.005s] ( 530/1163) grep-searcher searcher::glue::tests::context_sherlock_invert1
+        PASS [   0.004s] ( 531/1163) grep-searcher searcher::glue::tests::empty_line1
+        PASS [   0.006s] ( 532/1163) grep-searcher searcher::glue::tests::context_sherlock5
+        PASS [   0.006s] ( 533/1163) grep-searcher searcher::glue::tests::context_sherlock_invert2
+        PASS [   0.012s] ( 534/1163) grep-searcher searcher::glue::tests::big_error_one_line
+        PASS [   0.007s] ( 535/1163) grep-searcher searcher::glue::tests::context_sherlock6
+        PASS [   0.006s] ( 536/1163) grep-searcher searcher::glue::tests::empty_line2
+        PASS [   0.012s] ( 537/1163) grep-searcher searcher::glue::tests::context_sherlock2
+        PASS [   0.006s] ( 538/1163) grep-searcher searcher::glue::tests::empty_line3
+        PASS [   0.005s] ( 539/1163) grep-searcher searcher::glue::tests::invert1
+        PASS [   0.007s] ( 540/1163) grep-searcher searcher::glue::tests::empty_line4
+        PASS [   0.006s] ( 541/1163) grep-searcher searcher::glue::tests::empty_line6
+        PASS [   0.019s] ( 542/1163) grep-searcher searcher::glue::tests::big_error_multi_line
+        PASS [   0.004s] ( 543/1163) grep-searcher searcher::glue::tests::passthru_sherlock1
+        PASS [   0.004s] ( 544/1163) grep-searcher searcher::glue::tests::multi_line_overlap1
+        PASS [   0.008s] ( 545/1163) grep-searcher searcher::glue::tests::line_number1
+        PASS [   0.004s] ( 546/1163) grep-searcher searcher::glue::tests::multi_line_overlap2
+        PASS [   0.008s] ( 547/1163) grep-searcher searcher::glue::tests::line_number_invert1
+        PASS [   0.004s] ( 548/1163) grep-searcher searcher::glue::tests::passthru_sherlock_invert1
+        PASS [   0.004s] ( 549/1163) grep-searcher searcher::glue::tests::scratch
+        PASS [   0.010s] ( 550/1163) grep-searcher searcher::glue::tests::empty_line5
+        PASS [   0.004s] ( 551/1163) grep-searcher searcher::tests::config_error_heap_limit
+        PASS [   0.004s] ( 552/1163) grep-searcher searcher::tests::uft8_bom_sniffing
+        PASS [   0.004s] ( 553/1163) grep-searcher searcher::tests::config_error_line_terminator
+        PASS [   0.004s] ( 554/1163) grep-searcher testutil::tests::empty_line1
+        PASS [   0.004s] ( 555/1163) grep-searcher testutil::tests::empty_line3
+        PASS [   0.004s] ( 556/1163) ignore default_types::tests::default_types_aliases_are_sorted
+        PASS [   0.004s] ( 557/1163) grep-searcher testutil::tests::empty_line4
+        PASS [   0.004s] ( 558/1163) grep-searcher testutil::tests::empty_line6
+        PASS [   0.004s] ( 559/1163) grep-searcher testutil::tests::empty_line5
+        PASS [   0.004s] ( 560/1163) ignore default_types::tests::default_types_are_sorted
+        PASS [   0.004s] ( 561/1163) ignore dir::tests::absolute_parent
+        PASS [   0.004s] ( 562/1163) ignore dir::tests::absolute_parent_anchored
+        PASS [   0.009s] ( 563/1163) grep-searcher testutil::tests::empty_line2
+        PASS [   0.007s] ( 564/1163) ignore dir::tests::custom_ignore
+        PASS [   0.007s] ( 565/1163) ignore dir::tests::custom_ignore_over_ignore
+        PASS [   0.004s] ( 566/1163) ignore dir::tests::custom_ignore_precedence
+        PASS [   0.004s] ( 567/1163) ignore dir::tests::errored
+        PASS [   0.004s] ( 568/1163) ignore dir::tests::exclude_lowest
+        PASS [   0.004s] ( 569/1163) ignore dir::tests::errored_partial_and_ignore
+        PASS [   0.010s] ( 570/1163) ignore dir::tests::absolute_parent_matchers_are_cached_across_roots
+        PASS [   0.006s] ( 571/1163) ignore dir::tests::errored_both
+        PASS [   0.004s] ( 572/1163) ignore dir::tests::git_exclude
+        PASS [   0.003s] ( 573/1163) ignore dir::tests::git_info_exclude_in_linked_worktree
+        PASS [   0.004s] ( 574/1163) ignore dir::tests::explicit_ignore
+        PASS [   0.008s] ( 575/1163) ignore dir::tests::errored_partial
+        PASS [   0.003s] ( 576/1163) ignore dir::tests::gitignore_no_git
+        PASS [   0.004s] ( 577/1163) ignore dir::tests::gitignore
+        PASS [   0.004s] ( 578/1163) ignore dir::tests::gitignore_with_jj
+        PASS [   0.004s] ( 579/1163) ignore dir::tests::ignore
+        PASS [   0.003s] ( 580/1163) ignore dir::tests::not_present_empty
+        PASS [   0.004s] ( 581/1163) ignore dir::tests::ignore_over_gitignore
+        PASS [   0.004s] ( 582/1163) ignore dir::tests::multi_root_gitignore_order_independent
+        PASS [   0.009s] ( 583/1163) ignore dir::tests::gitignore_allowed_no_git
+        PASS [   0.005s] ( 584/1163) ignore gitignore::tests::case_insensitive
+        PASS [   0.006s] ( 585/1163) ignore dir::tests::stops_at_git_dir
+        PASS [   0.003s] ( 586/1163) ignore gitignore::tests::cs3
+        PASS [   0.004s] ( 587/1163) ignore gitignore::tests::cs1
+        PASS [   0.003s] ( 588/1163) ignore gitignore::tests::ig1
+        PASS [   0.003s] ( 589/1163) ignore gitignore::tests::cs4
+        PASS [   0.004s] ( 590/1163) ignore gitignore::tests::cs2
+        PASS [   0.005s] ( 591/1163) ignore gitignore::tests::ig10
+        PASS [   0.004s] ( 592/1163) ignore gitignore::tests::ig13
+        PASS [   0.005s] ( 593/1163) ignore gitignore::tests::ig14
+        PASS [   0.005s] ( 594/1163) ignore gitignore::tests::ig16
+        PASS [   0.007s] ( 595/1163) ignore gitignore::tests::ig11
+        PASS [   0.004s] ( 596/1163) ignore gitignore::tests::ig17
+        PASS [   0.009s] ( 597/1163) ignore gitignore::tests::ig15
+        PASS [   0.003s] ( 598/1163) ignore gitignore::tests::ig21
+        PASS [   0.010s] ( 599/1163) ignore gitignore::tests::ig12
+        PASS [   0.004s] ( 600/1163) ignore gitignore::tests::ig19
+        PASS [   0.003s] ( 601/1163) ignore gitignore::tests::ig22
+        PASS [   0.006s] ( 602/1163) ignore gitignore::tests::ig20
+        PASS [   0.006s] ( 603/1163) ignore gitignore::tests::ig18
+        PASS [   0.007s] ( 604/1163) ignore gitignore::tests::ig2
+        PASS [   0.004s] ( 605/1163) ignore gitignore::tests::ig24
+        PASS [   0.003s] ( 606/1163) ignore gitignore::tests::ig26
+        PASS [   0.005s] ( 607/1163) ignore gitignore::tests::ig23
+        PASS [   0.003s] ( 608/1163) ignore gitignore::tests::ig27
+        PASS [   0.004s] ( 609/1163) ignore gitignore::tests::ig28
+        PASS [   0.003s] ( 610/1163) ignore gitignore::tests::ig29
+        PASS [   0.005s] ( 611/1163) ignore gitignore::tests::ig30
+        PASS [   0.005s] ( 612/1163) ignore gitignore::tests::ig3
+        PASS [   0.009s] ( 613/1163) ignore gitignore::tests::ig25
+        PASS [   0.007s] ( 614/1163) ignore gitignore::tests::ig31
+        PASS [   0.004s] ( 615/1163) ignore gitignore::tests::ig35
+        PASS [   0.004s] ( 616/1163) ignore gitignore::tests::ig32
+        PASS [   0.004s] ( 617/1163) ignore gitignore::tests::ig34
+        PASS [   0.005s] ( 618/1163) ignore gitignore::tests::ig33
+        PASS [   0.005s] ( 619/1163) ignore gitignore::tests::ig36
+        PASS [   0.005s] ( 620/1163) ignore gitignore::tests::ig39
+        PASS [   0.005s] ( 621/1163) ignore gitignore::tests::ig42
+        PASS [   0.005s] ( 622/1163) ignore gitignore::tests::ig4
+        PASS [   0.006s] ( 623/1163) ignore gitignore::tests::ig37
+        PASS [   0.004s] ( 624/1163) ignore gitignore::tests::ig43
+        PASS [   0.006s] ( 625/1163) ignore gitignore::tests::ig38
+        PASS [   0.006s] ( 626/1163) ignore gitignore::tests::ig41
+        PASS [   0.008s] ( 627/1163) ignore gitignore::tests::ig40
+        PASS [   0.004s] ( 628/1163) ignore gitignore::tests::ig7
+        PASS [   0.004s] ( 629/1163) ignore gitignore::tests::ig8
+        PASS [   0.005s] ( 630/1163) ignore gitignore::tests::ig5
+        PASS [   0.005s] ( 631/1163) ignore gitignore::tests::ig44
+        PASS [   0.006s] ( 632/1163) ignore gitignore::tests::ig6
+        PASS [   0.005s] ( 633/1163) ignore gitignore::tests::ignot1
+        PASS [   0.006s] ( 634/1163) ignore gitignore::tests::ig9
+        PASS [   0.136s] ( 635/1163) grep-printer standard::tests::replacement_per_match
+        PASS [   0.004s] ( 636/1163) ignore gitignore::tests::ignot10
+        PASS [   0.004s] ( 637/1163) ignore gitignore::tests::ignot11
+        PASS [   0.004s] ( 638/1163) ignore gitignore::tests::ignot12
+        PASS [   0.005s] ( 639/1163) ignore gitignore::tests::ignot13
+        PASS [   0.007s] ( 640/1163) ignore gitignore::tests::ignot14
+        PASS [   0.006s] ( 641/1163) ignore gitignore::tests::ignot18
+        PASS [   0.006s] ( 642/1163) ignore gitignore::tests::ignot17
+        PASS [   0.006s] ( 643/1163) ignore gitignore::tests::ignot16
+        PASS [   0.008s] ( 644/1163) ignore gitignore::tests::ignot15
+        PASS [   0.005s] ( 645/1163) ignore gitignore::tests::ignot19
+        PASS [   0.005s] ( 646/1163) ignore gitignore::tests::ignot4
+        PASS [   0.005s] ( 647/1163) ignore gitignore::tests::ignot2
+        PASS [   0.006s] ( 648/1163) ignore gitignore::tests::ignot3
+        PASS [   0.005s] ( 649/1163) ignore gitignore::tests::ignot5
+        PASS [   0.005s] ( 650/1163) ignore gitignore::tests::ignot7
+        PASS [   0.005s] ( 651/1163) ignore gitignore::tests::parse_excludes_file2
+        PASS [   0.006s] ( 652/1163) ignore gitignore::tests::parse_excludes_file3
+        PASS [   0.004s] ( 653/1163) ignore gitignore::tests::regression_106
+        PASS [   0.006s] ( 654/1163) ignore gitignore::tests::parse_excludes_file1
+        PASS [   0.009s] ( 655/1163) ignore gitignore::tests::ignot6
+        PASS [   0.005s] ( 656/1163) ignore gitignore::tests::parse_excludes_file5
+        PASS [   0.007s] ( 657/1163) ignore gitignore::tests::parse_excludes_file4
+        PASS [   0.006s] ( 658/1163) ignore gitignore::tests::ignot9
+        PASS [   0.012s] ( 659/1163) ignore gitignore::tests::ignot8
+        PASS [   0.005s] ( 660/1163) ignore overrides::tests::empty
+        PASS [   0.005s] ( 661/1163) ignore overrides::tests::allow_directories
+        PASS [   0.005s] ( 662/1163) ignore overrides::tests::only_ignores
+        PASS [   0.006s] ( 663/1163) ignore overrides::tests::absolute_path
+        PASS [   0.007s] ( 664/1163) ignore overrides::tests::case_insensitive
+        PASS [   0.006s] ( 665/1163) ignore overrides::tests::gitignore
+        PASS [   0.007s] ( 666/1163) ignore overrides::tests::default_case_sensitive
+        PASS [   0.005s] ( 667/1163) ignore types::tests::match5
+        PASS [   0.007s] ( 668/1163) ignore types::tests::match2
+        PASS [   0.008s] ( 669/1163) ignore overrides::tests::simple
+        PASS [   0.008s] ( 670/1163) ignore types::tests::match10
+        PASS [   0.008s] ( 671/1163) ignore types::tests::match4
+        PASS [   0.010s] ( 672/1163) ignore types::tests::match11
+        PASS [   0.010s] ( 673/1163) ignore overrides::tests::precedence
+        PASS [   0.010s] ( 674/1163) ignore types::tests::match1
+        PASS [   0.006s] ( 675/1163) ignore types::tests::match6
+        PASS [   0.006s] ( 676/1163) ignore types::tests::match7
+        PASS [   0.013s] ( 677/1163) ignore types::tests::match3
+        PASS [   0.006s] ( 678/1163) ignore types::tests::matchnot1
+        PASS [   0.010s] ( 679/1163) ignore types::tests::match8
+        PASS [   0.006s] ( 680/1163) ignore types::tests::matchnot2
+        PASS [   0.006s] ( 681/1163) ignore types::tests::matchnot4
+        PASS [   0.010s] ( 682/1163) ignore types::tests::match9
+        PASS [   0.008s] ( 683/1163) ignore types::tests::matchnot5
+        PASS [   0.136s] ( 684/1163) grep-searcher searcher::glue::tests::binary3
+        PASS [   0.136s] ( 685/1163) grep-searcher searcher::glue::tests::binary4
+        PASS [   0.006s] ( 686/1163) ignore types::tests::matchnot7
+        PASS [   0.007s] ( 687/1163) ignore types::tests::matchnot6
+        PASS [   0.005s] ( 688/1163) ignore types::tests::test_invalid_defs
+        PASS [   0.007s] ( 689/1163) ignore walk::tests::explicit_ignore_exclusive_use
+        PASS [   0.016s] ( 690/1163) ignore types::tests::matchnot3
+        PASS [   0.008s] ( 691/1163) ignore walk::tests::custom_ignore_exclusive_use
+        PASS [   0.011s] ( 692/1163) ignore types::tests::matchnot8
+        PASS [   0.013s] ( 693/1163) ignore walk::tests::explicit_ignore
+        PASS [   0.014s] ( 694/1163) ignore walk::tests::empty
+        PASS [   0.016s] ( 695/1163) ignore walk::tests::custom_ignore
+        PASS [   0.014s] ( 696/1163) ignore walk::tests::first_path_not_symlink
+        PASS [   0.018s] ( 697/1163) ignore walk::tests::filter
+        PASS [   0.016s] ( 698/1163) ignore walk::tests::from_iter
+        PASS [   0.015s] ( 699/1163) ignore walk::tests::gitignore_parent
+        PASS [   0.012s] ( 700/1163) ignore walk::tests::no_ignores
+        PASS [   0.013s] ( 701/1163) ignore walk::tests::no_read_permissions
+        PASS [   0.024s] ( 702/1163) ignore walk::tests::gitignore
+        PASS [   0.009s] ( 703/1163) ignore::gitignore_matched_path_or_any_parents_tests test_dirs_in_deep
+        PASS [   0.018s] ( 704/1163) ignore walk::tests::same_file_system
+        PASS [   0.011s] ( 705/1163) ignore::gitignore_matched_path_or_any_parents_tests test_files_in_deep
+        PASS [   0.004s] ( 706/1163) ignore::gitignore_skip_bom gitignore_skip_bom
+        PASS [   0.009s] ( 707/1163) ignore::gitignore_matched_path_or_any_parents_tests test_files_in_root
+        PASS [   0.020s] ( 708/1163) ignore walk::tests::symlinks
+        PASS [   0.020s] ( 709/1163) ignore walk::tests::symlink_loop
+        PASS [   0.013s] ( 710/1163) ignore::gitignore_matched_path_or_any_parents_tests test_path_should_be_under_root
+        PASS [   0.012s] ( 711/1163) ripgrep::integration binary::after_match1_explicit
+        PASS [   0.023s] ( 712/1163) ignore::gitignore_matched_path_or_any_parents_tests test_dirs_in_root
+        PASS [   0.038s] ( 713/1163) ignore walk::tests::max_depth
+        PASS [   0.010s] ( 714/1163) ripgrep::integration binary::after_match1_explicit_text
+        PASS [   0.011s] ( 715/1163) ripgrep::integration binary::after_match1_explicit_count
+        PASS [   0.039s] ( 716/1163) ignore walk::tests::max_filesize
+        PASS [   0.014s] ( 717/1163) ripgrep::integration binary::after_match1_implicit
+        PASS [   0.014s] ( 718/1163) ripgrep::integration binary::after_match1_implicit_count
+        PASS [   0.010s] ( 719/1163) ripgrep::integration binary::after_match1_stdin
+        PASS [   0.011s] ( 720/1163) ripgrep::integration binary::after_match1_implicit_quiet
+        PASS [   0.012s] ( 721/1163) ripgrep::integration binary::after_match1_implicit_text
+        PASS [   0.017s] ( 722/1163) ripgrep::integration binary::after_match1_implicit_binary
+        PASS [   0.014s] ( 723/1163) ripgrep::integration binary::after_match2_implicit
+        PASS [   0.019s] ( 724/1163) ripgrep::integration binary::after_match1_implicit_count_binary
+        PASS [   0.010s] ( 725/1163) ripgrep::integration binary::before_match1_explicit
+        PASS [   0.054s] ( 726/1163) ignore walk::tests::min_depth
+        PASS [   0.009s] ( 727/1163) ripgrep::integration binary::before_match2_explicit
+        PASS [   0.013s] ( 728/1163) ripgrep::integration binary::before_match1_implicit_text
+        PASS [   0.014s] ( 729/1163) ripgrep::integration binary::before_match1_implicit_binary
+        PASS [   0.016s] ( 730/1163) ripgrep::integration binary::before_match1_implicit
+        PASS [   0.026s] ( 731/1163) ripgrep::integration binary::after_match1_implicit_path
+        PASS [   0.013s] ( 732/1163) ripgrep::integration binary::before_match2_implicit_text
+        PASS [   0.015s] ( 733/1163) ripgrep::integration binary::before_match2_implicit
+        PASS [   0.029s] ( 734/1163) ripgrep::integration binary::after_match2_implicit_text
+        PASS [   0.016s] ( 735/1163) ripgrep::integration binary::mmap_after_nul_match
+        PASS [   0.010s] ( 736/1163) ripgrep::integration binary::mmap_match_explicit
+        PASS [   0.014s] ( 737/1163) ripgrep::integration binary::mmap_match_count
+        PASS [   0.010s] ( 738/1163) ripgrep::integration binary::mmap_match_near_nul
+        PASS [   0.011s] ( 739/1163) ripgrep::integration binary::mmap_match_multiple
+        PASS [   0.009s] ( 740/1163) ripgrep::integration feature::context_sep
+        PASS [   0.011s] ( 741/1163) ripgrep::integration binary::mmap_text_flag
+        PASS [   0.010s] ( 742/1163) ripgrep::integration feature::context_sep_default
+        PASS [   0.024s] ( 743/1163) ripgrep::integration binary::mmap_binary_flag
+        PASS [   0.004s] ( 744/1163) ripgrep::integration feature::f1155_auto_hybrid_regex
+        PASS [   0.012s] ( 745/1163) ripgrep::integration feature::context_sep_empty
+        PASS [   0.024s] ( 746/1163) ripgrep::integration binary::mmap_match_implicit
+        PASS [   0.013s] ( 747/1163) ripgrep::integration feature::f109_case_sensitive_part1
+        PASS [   0.017s] ( 748/1163) ripgrep::integration feature::f1078_max_columns_preview1
+        PASS [   0.013s] ( 749/1163) ripgrep::integration feature::f109_case_sensitive_part2
+        PASS [   0.015s] ( 750/1163) ripgrep::integration feature::f1078_max_columns_preview2
+        PASS [   0.017s] ( 751/1163) ripgrep::integration feature::f109_max_depth
+        PASS [   0.010s] ( 752/1163) ripgrep::integration feature::f1207_ignore_encoding
+        PASS [   0.012s] ( 753/1163) ripgrep::integration feature::f1207_auto_encoding
+        PASS [   0.012s] ( 754/1163) ripgrep::integration feature::f129_context
+        PASS [   0.022s] ( 755/1163) ripgrep::integration feature::f1138_no_ignore_dot
+     SIGABRT [   0.205s] ( 756/1163) ignore dir::tests::multi_root_custom_ignore_order_independent
+  stdout ───
+
+    running 1 test
+  stderr ───
+
+    thread 'dir::tests::multi_root_custom_ignore_order_independent' (14450) panicked at crates/ignore/src/dir.rs:1554:41:
+    called `Option::unwrap()` on a `None` value
+    note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+    thread 'dir::tests::multi_root_custom_ignore_order_independent' (14450) panicked at crates/ignore/src/lib.rs:514:41:
+    called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+    stack backtrace:
+       0:     0x5618ce0ac721 - std[68c81ae915296b05]::backtrace_rs::backtrace::libunwind::trace
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/../../backtrace/src/backtrace/libunwind.rs:117:9
+       1:     0x5618ce0ac721 - std[68c81ae915296b05]::backtrace_rs::backtrace::trace_unsynchronized::<std[68c81ae915296b05]::sys::backtrace::_print_fmt::{closure#1}>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/../../backtrace/src/backtrace/mod.rs:66:14
+       2:     0x5618ce0ac721 - std[68c81ae915296b05]::sys::backtrace::_print_fmt
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/sys/backtrace.rs:74:9
+       3:     0x5618ce0ac721 - <<std[68c81ae915296b05]::sys::backtrace::BacktraceLock>::print::DisplayBacktrace as core[efd5e57aef94d71e]::fmt::Display>::fmt
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/sys/backtrace.rs:44:26
+       4:     0x5618ce0c267a - <core[efd5e57aef94d71e]::fmt::rt::Argument>::fmt
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/fmt/rt.rs:152:76
+       5:     0x5618ce0c267a - core[efd5e57aef94d71e]::fmt::write
+       6:     0x5618ce0b1eac - core[efd5e57aef94d71e]::io::write::default_write_fmt::<std[68c81ae915296b05]::sys::stdio::unix::Stderr>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/io/write.rs:402:11
+       7:     0x5618ce0b1eac - <std[68c81ae915296b05]::sys::stdio::unix::Stderr as core[efd5e57aef94d71e]::io::write::Write>::write_fmt
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/io/write.rs:335:13
+       8:     0x5618ce0867e6 - <std[68c81ae915296b05]::sys::backtrace::BacktraceLock>::print
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/sys/backtrace.rs:47:9
+       9:     0x5618ce0867e6 - std[68c81ae915296b05]::panicking::default_hook::{closure#0}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:292:27
+      10:     0x5618ce0a3d21 - std[68c81ae915296b05]::panicking::default_hook
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:319:9
+      11:     0x5618ce0a404b - std[68c81ae915296b05]::panicking::panic_with_hook
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:815:13
+      12:     0x5618ce086892 - std[68c81ae915296b05]::panicking::panic_handler::{closure#0}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:688:13
+      13:     0x5618ce07f019 - std[68c81ae915296b05]::sys::backtrace::__rust_end_short_backtrace::<std[68c81ae915296b05]::panicking::panic_handler::{closure#0}, !>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/sys/backtrace.rs:182:18
+      14:     0x5618ce08757d - __rustc[3d2f79520d6fa809]::rust_begin_unwind
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:679:5
+      15:     0x5618ce0c2f1c - core[efd5e57aef94d71e]::panicking::panic_fmt
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/panicking.rs:80:14
+      16:     0x5618ce0c2c72 - core[efd5e57aef94d71e]::result::unwrap_failed
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/result.rs:1871:5
+      17:     0x5618cdd28510 - <core[efd5e57aef94d71e]::result::Result<(), core[efd5e57aef94d71e]::io::error::Error>>::unwrap
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/result.rs:1232:23
+      18:     0x5618cdd28510 - <ignore[e163a1f8dd173b1c]::tests::TempDir as core[efd5e57aef94d71e]::ops::drop::Drop>::drop
+                                   at /home/dinakaran/qrc-bench/ripgrep/crates/ignore/src/lib.rs:514:41
+      19:     0x5618cdd26d73 - core[efd5e57aef94d71e]::ptr::drop_glue::<ignore[e163a1f8dd173b1c]::tests::TempDir>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/ptr/mod.rs:847:1
+      20:     0x5618cdd04204 - ignore[e163a1f8dd173b1c]::dir::tests::multi_root_custom_ignore_order_independent
+                                   at /home/dinakaran/qrc-bench/ripgrep/crates/ignore/src/dir.rs:1562:5
+      21:     0x5618cdd19737 - ignore[e163a1f8dd173b1c]::dir::tests::multi_root_custom_ignore_order_independent::{closure#0}
+                                   at /home/dinakaran/qrc-bench/ripgrep/crates/ignore/src/dir.rs:1522:52
+      22:     0x5618cdd2de16 - <ignore[e163a1f8dd173b1c]::dir::tests::multi_root_custom_ignore_order_independent::{closure#0} as core[efd5e57aef94d71e]::ops::function::FnOnce<()>>::call_once
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/ops/function.rs:250:5
+      23:     0x5618cdd8fecb - <fn() -> core[efd5e57aef94d71e]::result::Result<(), alloc[c23e483dde3f7cfb]::string::String> as core[efd5e57aef94d71e]::ops::function::FnOnce<()>>::call_once
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/ops/function.rs:250:5
+      24:     0x5618cdd8fecb - test[ff178199d140d5fa]::__rust_begin_short_backtrace::<core[efd5e57aef94d71e]::result::Result<(), alloc[c23e483dde3f7cfb]::string::String>, fn() -> core[efd5e57aef94d71e]::result::Result<(), alloc[c23e483dde3f7cfb]::string::String>>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/test/src/lib.rs:733:18
+      25:     0x5618cdd9d535 - test[ff178199d140d5fa]::run_test_in_process::{closure#0}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/test/src/lib.rs:756:74
+      26:     0x5618cdd9d535 - <core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<test[ff178199d140d5fa]::run_test_in_process::{closure#0}> as core[efd5e57aef94d71e]::ops::function::FnOnce<()>>::call_once
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/panic/unwind_safe.rs:275:9
+      27:     0x5618cdd9d535 - std[68c81ae915296b05]::panicking::catch_unwind::do_call::<core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<test[ff178199d140d5fa]::run_test_in_process::{closure#0}>, core[efd5e57aef94d71e]::result::Result<(), alloc[c23e483dde3f7cfb]::string::String>>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:576:43
+      28:     0x5618cdd9d535 - std[68c81ae915296b05]::panicking::catch_unwind::<core[efd5e57aef94d71e]::result::Result<(), alloc[c23e483dde3f7cfb]::string::String>, core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<test[ff178199d140d5fa]::run_test_in_process::{closure#0}>>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:544:19
+      29:     0x5618cdd9d535 - std[68c81ae915296b05]::panic::catch_unwind::<core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<test[ff178199d140d5fa]::run_test_in_process::{closure#0}>, core[efd5e57aef94d71e]::result::Result<(), alloc[c23e483dde3f7cfb]::string::String>>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panic.rs:359:14
+      30:     0x5618cdd9d535 - test[ff178199d140d5fa]::run_test_in_process
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/test/src/lib.rs:756:27
+      31:     0x5618cdd9d535 - test[ff178199d140d5fa]::run_test::{closure#0}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/test/src/lib.rs:677:43
+      32:     0x5618cdd968f4 - test[ff178199d140d5fa]::run_test::{closure#1}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/test/src/lib.rs:707:41
+      33:     0x5618cdd968f4 - std[68c81ae915296b05]::sys::backtrace::__rust_begin_short_backtrace::<test[ff178199d140d5fa]::run_test::{closure#1}, ()>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/sys/backtrace.rs:166:18
+      34:     0x5618cdda0692 - std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked::<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1}::{closure#0}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/thread/lifecycle.rs:70:13
+      35:     0x5618cdda0692 - <core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1}::{closure#0}> as core[efd5e57aef94d71e]::ops::function::FnOnce<()>>::call_once
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/panic/unwind_safe.rs:275:9
+      36:     0x5618cdda0692 - std[68c81ae915296b05]::panicking::catch_unwind::do_call::<core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1}::{closure#0}>, ()>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:576:43
+      37:     0x5618cdda0692 - std[68c81ae915296b05]::panicking::catch_unwind::<(), core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1}::{closure#0}>>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panicking.rs:544:19
+      38:     0x5618cdda0692 - std[68c81ae915296b05]::panic::catch_unwind::<core[efd5e57aef94d71e]::panic::unwind_safe::AssertUnwindSafe<std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1}::{closure#0}>, ()>
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/panic.rs:359:14
+      39:     0x5618cdda0692 - std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked::<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/thread/lifecycle.rs:68:26
+      40:     0x5618cdda0692 - <std[68c81ae915296b05]::thread::lifecycle::spawn_unchecked<test[ff178199d140d5fa]::run_test::{closure#1}, ()>::{closure#1} as core[efd5e57aef94d71e]::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/ops/function.rs:250:5
+      41:     0x5618ce0abfe9 - <alloc[c23e483dde3f7cfb]::boxed::Box<dyn core[efd5e57aef94d71e]::ops::function::FnOnce<(), Output = ()> + core[efd5e57aef94d71e]::marker::Send> as core[efd5e57aef94d71e]::ops::function::FnOnce<()>>::call_once
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/alloc/src/boxed.rs:2320:9
+      42:     0x5618ce0abfe9 - <std[68c81ae915296b05]::sys::thread::unix::Thread>::new::thread_start
+                                   at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/std/src/sys/thread/unix.rs:123:17
+      43:     0x7fc9184aca9f - <unknown>
+      44:     0x7fc91854f3dc - <unknown>
+      45:                0x0 - <unknown>
+
+    thread 'dir::tests::multi_root_custom_ignore_order_independent' (14450) panicked at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library/core/src/panicking.rs:233:5:
+    panic in a destructor during cleanup
+    thread caused non-unwinding panic. aborting.
+
+    (test aborted with signal 6: SIGABRT)
+
+  Cancelling due to test failure: 13 tests still running
+        PASS [   0.007s] ( 757/1163) ripgrep::integration feature::f159_max_count_zero
+        PASS [   0.013s] ( 758/1163) ripgrep::integration feature::f129_replace
+        PASS [   0.014s] ( 759/1163) ripgrep::integration feature::f129_matches
+        PASS [   0.053s] ( 760/1163) ripgrep::integration binary::matching_files_inconsistent_with_count
+        PASS [   0.015s] ( 761/1163) ripgrep::integration feature::f1420_no_ignore_exclude
+        PASS [   0.016s] ( 762/1163) ripgrep::integration feature::f159_max_count
+        PASS [   0.022s] ( 763/1163) ripgrep::integration feature::f1404_nothing_searched_ignored
+        PASS [   0.022s] ( 764/1163) ripgrep::integration feature::f1404_nothing_searched_warning
+        PASS [   0.030s] ( 765/1163) ripgrep::integration feature::f1414_no_require_git
+        PASS [   0.028s] ( 766/1163) ripgrep::integration feature::f1842_field_context_separator
+        PASS [   0.038s] ( 767/1163) ripgrep::integration feature::f1466_no_ignore_files
+        PASS [   0.416s] ( 768/1163) grep-searcher searcher::glue::tests::regression_2260
+        PASS [   0.636s] ( 769/1163) grep-searcher searcher::glue::tests::big1
+────────────
+     Summary [   0.887s] 769/1163 tests run: 768 passed, 1 failed, 1 skipped
+     SIGABRT [   0.205s] ( 756/1163) ignore dir::tests::multi_root_custom_ignore_order_independent
+warning: 394/1163 tests were not run due to test failure (run with --no-fail-fast to run all tests, or run with --max-fail)
+error: test run failed

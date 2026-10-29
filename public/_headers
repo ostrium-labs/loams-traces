@@ -1,0 +1,7 @@
+/traces/wasm/duckdb-mvp.wasm.gz
+  Content-Type: application/wasm
+  Content-Encoding: gzip
+
+/traces/wasm/duckdb-eh.wasm.gz
+  Content-Type: application/wasm
+  Content-Encoding: gzip

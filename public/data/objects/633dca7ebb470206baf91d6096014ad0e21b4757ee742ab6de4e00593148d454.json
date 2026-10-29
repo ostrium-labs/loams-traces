@@ -1,0 +1,2 @@
+{"engine": "iggy", "op": "produce", "transport": "tcp", "batch": 1000, "depth": 6, "cores": 6, "errors": 0, "qps": 374673, "mb_per_s": 37.47, "p50_ms": 0.57, "p99_ms": 635.61, "p999_ms": 1744.88}
+{"engine": "iggy", "op": "consume", "transport": "tcp", "batch": 1000, "depth": 6, "cores": 6, "errors": 0, "qps": 2941435, "mb_per_s": 294.14, "p50_ms": 0.59, "p99_ms": 7.61, "p999_ms": 55.04}

@@ -1,0 +1,2 @@
+public/data/objects/*.part -diff -delta
+public/data/spans/*.gz -diff -delta

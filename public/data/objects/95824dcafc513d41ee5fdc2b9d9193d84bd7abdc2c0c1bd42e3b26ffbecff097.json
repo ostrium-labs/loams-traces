@@ -1,0 +1,1 @@
+{"label":"kafka-metadata-s4p1","in_flight": 5, "compression": "none", "scenario": "metadata", "partitions": 1, "procs": 6, "size": 100, "acks": "1", "requests": 1286741, "seconds": 15.0, "req_per_s": 85772, "conns": 24, "depth": 32}

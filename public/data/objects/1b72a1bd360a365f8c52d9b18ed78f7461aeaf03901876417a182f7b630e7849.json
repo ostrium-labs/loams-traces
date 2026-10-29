@@ -1,0 +1,1 @@
+{"label":"kafka-produce-acks1-s4p2","in_flight": 5, "compression": "none", "scenario": "produce", "partitions": 2, "procs": 6, "size": 100, "acks": "1", "acked": 11574049, "errors": 0, "seconds": 30.29, "msgs_per_s": 382069, "mb_per_s": 38.2, "produce_requests": 1838, "produce_req_per_s": 61, "msgs_per_request": 6297.1}

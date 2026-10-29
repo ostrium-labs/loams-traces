@@ -1,0 +1,3 @@
+   Compiling nu v0.116.1 (/home/dinakaran/qrc-bench/nushell)
+      Timing report saved to /home/dinakaran/qrc-bench/nushell/target/cargo-timings/cargo-timing-20261022T185335065Z-28dfa57ea5126350.html
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.98s

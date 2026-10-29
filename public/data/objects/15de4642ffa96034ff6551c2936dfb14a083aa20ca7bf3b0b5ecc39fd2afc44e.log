@@ -1,0 +1,9 @@
+   Compiling grep-matcher v0.1.9 (/home/dinakaran/qrc-bench/ripgrep/crates/matcher)
+   Compiling grep-searcher v0.1.17 (/home/dinakaran/qrc-bench/ripgrep/crates/searcher)
+   Compiling grep-regex v0.1.14 (/home/dinakaran/qrc-bench/ripgrep/crates/regex)
+   Compiling grep-pcre2 v0.1.10 (/home/dinakaran/qrc-bench/ripgrep/crates/pcre2)
+   Compiling grep-printer v0.3.1 (/home/dinakaran/qrc-bench/ripgrep/crates/printer)
+   Compiling grep v0.4.1 (/home/dinakaran/qrc-bench/ripgrep/crates/grep)
+   Compiling ripgrep v15.2.0 (/home/dinakaran/qrc-bench/ripgrep)
+      Timing report saved to /home/dinakaran/qrc-bench/ripgrep/target/cargo-timings/cargo-timing-20261022T173816249Z-e9373f2c0b0fb8c2.html
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.56s

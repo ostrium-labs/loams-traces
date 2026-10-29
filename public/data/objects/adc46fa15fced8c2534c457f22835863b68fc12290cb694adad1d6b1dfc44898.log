@@ -1,0 +1,44 @@
+   Compiling libc v0.2.186
+    Checking memchr v2.8.3
+    Checking regex-syntax v0.8.11
+    Checking log v0.4.33
+   Compiling serde_core v1.0.228
+   Compiling zmij v1.0.23
+   Compiling find-msvc-tools v0.1.9
+   Compiling shlex v2.0.1
+    Checking cfg-if v1.0.4
+   Compiling crossbeam-utils v0.8.22
+   Compiling serde_json v1.0.150
+   Compiling crossbeam-epoch v0.9.20
+   Compiling serde v1.0.228
+   Compiling pkg-config v0.3.33
+    Checking encoding_rs v0.8.35
+    Checking itoa v1.0.18
+    Checking termcolor v1.4.1
+   Compiling crossbeam-deque v0.8.7
+    Checking same-file v1.0.6
+   Compiling anyhow v1.0.103
+    Checking walkdir v2.5.0
+   Compiling ripgrep v15.2.0 (/home/dinakaran/qrc-bench/ripgrep)
+    Checking aho-corasick v1.1.4
+    Checking grep-matcher v0.1.9 (/home/dinakaran/qrc-bench/ripgrep/crates/matcher)
+    Checking lexopt v0.3.2
+    Checking textwrap v0.16.2
+    Checking encoding_rs_io v0.1.7
+   Compiling jobserver v0.1.35
+    Checking memmap2 v0.9.11
+    Checking regex-automata v0.4.15
+   Compiling cc v1.2.67
+   Compiling pcre2-sys v0.2.10
+    Checking pcre2 v0.2.11
+    Checking grep-pcre2 v0.1.10 (/home/dinakaran/qrc-bench/ripgrep/crates/pcre2)
+    Checking bstr v1.13.0
+    Checking globset v0.4.19 (/home/dinakaran/qrc-bench/ripgrep/crates/globset)
+    Checking grep-searcher v0.1.17 (/home/dinakaran/qrc-bench/ripgrep/crates/searcher)
+    Checking grep-regex v0.1.14 (/home/dinakaran/qrc-bench/ripgrep/crates/regex)
+    Checking grep-cli v0.1.12 (/home/dinakaran/qrc-bench/ripgrep/crates/cli)
+    Checking ignore v0.4.29 (/home/dinakaran/qrc-bench/ripgrep/crates/ignore)
+    Checking grep-printer v0.3.1 (/home/dinakaran/qrc-bench/ripgrep/crates/printer)
+    Checking grep v0.4.1 (/home/dinakaran/qrc-bench/ripgrep/crates/grep)
+      Timing report saved to /home/dinakaran/qrc-bench/ripgrep/target/cargo-timings/cargo-timing-20261022T173808062Z-e9373f2c0b0fb8c2.html
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.67s

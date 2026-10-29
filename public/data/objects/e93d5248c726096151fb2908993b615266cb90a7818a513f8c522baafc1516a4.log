@@ -1,0 +1,938 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.47
+   Compiling libc v0.2.186
+   Compiling serde_core v1.0.229
+   Compiling cfg-if v1.0.4
+   Compiling memchr v2.8.3
+   Compiling serde v1.0.229
+   Compiling autocfg v1.5.0
+   Compiling log v0.4.34
+   Compiling smallvec v1.15.1
+   Compiling crossbeam-utils v0.8.22
+   Compiling allocator-api2 v0.2.21
+   Compiling equivalent v1.0.2
+   Compiling itoa v1.0.17
+   Compiling crossbeam-epoch v0.9.20
+   Compiling crossbeam-deque v0.8.7
+   Compiling libm v0.2.16
+   Compiling rayon-core v1.13.0
+   Compiling parking_lot_core v0.9.12
+   Compiling scopeguard v1.2.0
+   Compiling foldhash v0.2.0
+   Compiling lock_api v0.4.14
+   Compiling once_cell v1.21.3
+   Compiling thiserror v2.0.20
+   Compiling rustix v1.1.4
+   Compiling num-traits v0.2.19
+   Compiling linux-raw-sys v0.12.1
+   Compiling zmij v1.0.21
+   Compiling stable_deref_trait v1.2.1
+   Compiling aho-corasick v1.1.4
+   Compiling regex-syntax v0.8.11
+   Compiling dunce v1.0.5
+   Compiling fnv v1.0.7
+   Compiling iana-time-zone v0.1.65
+   Compiling pure-rust-locales v0.8.2
+   Compiling serde_json v1.0.151
+   Compiling rustversion v1.0.22
+   Compiling simd-adler32 v0.3.8
+   Compiling crc32fast v1.5.0
+   Compiling adler2 v2.0.1
+   Compiling heck v0.5.0
+   Compiling syn v2.0.117
+   Compiling syn v3.0.4
+   Compiling miniz_oxide v0.8.9
+   Compiling unicode-width v0.2.2
+   Compiling unicode-segmentation v1.13.3
+   Compiling thiserror v1.0.69
+   Compiling find-msvc-tools v0.1.9
+   Compiling zlib-rs v0.6.3
+   Compiling mio v1.2.0
+   Compiling errno v0.3.14
+   Compiling jobserver v0.1.34
+   Compiling shlex v1.3.0
+   Compiling bitflags v2.13.1
+   Compiling signal-hook-registry v1.4.8
+   Compiling parking_lot v0.12.5
+   Compiling regex-automata v0.4.16
+   Compiling unicode-xid v0.2.6
+   Compiling same-file v1.0.6
+   Compiling cc v1.2.56
+   Compiling walkdir v2.5.0
+   Compiling castaway v0.2.4
+   Compiling strsim v0.11.1
+   Compiling convert_case v0.10.0
+   Compiling signal-hook v0.3.18
+   Compiling arrayvec v0.7.6
+   Compiling num-integer v0.1.46
+   Compiling litrs v1.0.0
+   Compiling hex v0.4.3
+   Compiling byteorder v1.5.0
+   Compiling cfg_aliases v0.2.1
+   Compiling nix v0.31.3
+   Compiling anstyle v1.0.13
+   Compiling sysinfo v0.39.6
+   Compiling rustc-hash v2.1.2
+   Compiling signal-hook-mio v0.2.5
+   Compiling glob v0.3.3
+   Compiling humantime v2.4.0
+   Compiling utf8parse v0.2.2
+   Compiling nu-ansi-term v0.50.3
+   Compiling anstyle-query v1.1.5
+   Compiling anstyle-parse v0.2.7
+   Compiling colorchoice v1.0.4
+   Compiling document-features v0.2.12
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling anstream v0.6.21
+   Compiling ident_case v1.0.1
+   Compiling vte v0.14.1
+   Compiling type-map v0.5.1
+   Compiling clap_lex v1.0.0
+   Compiling rmp v0.8.15
+   Compiling ref-cast v1.0.25
+   Compiling self_cell v1.2.2
+   Compiling bigdecimal v0.4.10
+   Compiling unicase v2.9.0
+   Compiling procfs v0.18.0
+   Compiling zerocopy v0.7.35
+   Compiling bit-vec v0.8.0
+   Compiling strip-ansi-escapes v0.2.1
+   Compiling uucore v0.12.0
+   Compiling pkg-config v0.3.32
+   Compiling lscolors v0.21.0
+   Compiling bit-set v0.8.0
+   Compiling synstructure v0.13.2
+   Compiling num-format v0.4.4
+   Compiling flate2 v1.1.9
+   Compiling buf-trait v0.4.1
+   Compiling os_display v0.1.4
+   Compiling uucore_procs v0.12.0
+   Compiling byteyarn v0.5.1
+   Compiling sys-locale v0.3.2
+   Compiling num-bigint v0.4.8
+   Compiling option-ext v0.2.0
+   Compiling lean_string v0.7.0
+   Compiling winnow v1.0.4
+   Compiling anyhow v1.0.104
+   Compiling proc-macro-error-attr3 v3.1.1
+   Compiling dirs-sys v0.5.0
+   Compiling unicode-width v0.1.14
+   Compiling typeid v1.0.3
+   Compiling fancy-regex v0.19.0
+   Compiling owo-colors v4.3.0
+   Compiling proc-macro-error3 v3.1.1
+   Compiling bstr v1.13.1
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.20
+   Compiling dirs v7.0.0
+   Compiling darling_core v0.21.3
+   Compiling erased-serde v0.4.10
+   Compiling web-time v1.1.0
+   Compiling is_ci v1.2.0
+   Compiling unicode-linebreak v0.1.5
+   Compiling supports-color v3.0.2
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.1
+   Compiling zerovec-derive v0.11.2
+   Compiling displaydoc v0.2.5
+   Compiling thiserror-impl v1.0.69
+   Compiling derive_more-impl v2.1.1
+   Compiling strum_macros v0.28.0
+   Compiling ref-cast-impl v1.0.25
+   Compiling clap_derive v4.5.55
+   Compiling terminal_size v0.4.3
+   Compiling clap_builder v4.5.60
+   Compiling xattr v1.6.1
+   Compiling fluent-syntax v0.12.0
+   Compiling zerofrom v0.1.6
+   Compiling yoke v0.8.1
+   Compiling textwrap v0.16.2
+   Compiling miette-derive v7.6.0
+   Compiling object v0.37.3
+   Compiling supports-hyperlinks v3.2.0
+   Compiling supports-unicode v3.0.0
+   Compiling filedescriptor v0.8.3
+   Compiling pwd v1.4.0
+   Compiling zerovec v0.11.5
+   Compiling os_pipe v1.2.3
+   Compiling nu-path v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-path)
+   Compiling gimli v0.32.3
+   Compiling typetag v0.2.21
+   Compiling typetag-impl v0.2.21
+   Compiling getrandom v0.2.17
+   Compiling rustc-demangle v0.1.27
+   Compiling inventory v0.3.22
+   Compiling nu-derive-value v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-derive-value)
+   Compiling strum v0.28.0
+   Compiling version_check v0.9.5
+   Compiling tinystr v0.8.2
+   Compiling alloc-no-stdlib v3.0.0
+   Compiling semver v1.0.28
+   Compiling pin-project-lite v0.2.17
+   Compiling alloc-stdlib v0.3.0
+   Compiling futures-core v0.3.32
+   Compiling unic-langid-impl v0.9.6
+   Compiling clap v4.5.60
+   Compiling brotli-decompressor v6.0.0
+   Compiling socket2 v0.6.3
+   Compiling ryu v1.0.23
+   Compiling futures-sink v0.3.32
+   Compiling siphasher v1.0.2
+   Compiling unic-langid v0.9.6
+   Compiling doctest-file v1.0.0
+   Compiling intl-memoizer v0.5.3
+   Compiling fluent-langneg v0.13.1
+   Compiling intl_pluralrules v7.0.2
+   Compiling darling_macro v0.21.3
+   Compiling slab v0.4.12
+   Compiling futures-channel v0.3.32
+   Compiling interprocess v2.4.3
+   Compiling futures-macro v0.3.32
+   Compiling darling v0.21.3
+   Compiling futures-io v0.3.32
+   Compiling fluent-bundle v0.16.0
+   Compiling either v1.15.0
+   Compiling bytes v1.12.1
+   Compiling chrono v0.4.45
+   Compiling rmp-serde v1.3.1
+   Compiling addr2line v0.25.1
+   Compiling derive_setters v0.1.9
+   Compiling brotli v9.0.0
+   Compiling derive_more v2.1.1
+   Compiling crossterm v0.29.0
+   Compiling rayon v1.12.0
+   Compiling itertools v0.15.0
+   Compiling futures-task v0.3.32
+   Compiling tracing-core v0.1.36
+   Compiling tracing-attributes v0.1.31
+   Compiling percent-encoding v2.3.2
+   Compiling futures-util v0.3.32
+   Compiling nu-config v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-config)
+   Compiling fluent v0.17.0
+   Compiling http v1.5.0
+   Compiling typenum v1.20.1
+   Compiling zeroize v1.8.2
+   Compiling backtrace v0.3.76
+   Compiling rand_core v0.10.0
+   Compiling getrandom v0.4.2
+   Compiling pin-utils v0.1.0
+   Compiling regex v1.13.1
+   Compiling cpufeatures v0.3.0
+   Compiling cmake v0.1.57
+   Compiling fs_extra v1.3.0
+   Compiling procfs-core v0.18.0
+   Compiling backtrace-ext v0.2.1
+   Compiling chrono-humanize v0.2.3
+   Compiling aws-lc-sys v0.45.0
+   Compiling miette v7.6.0
+   Compiling httparse v1.10.1
+   Compiling generic-array v0.14.7
+   Compiling bytemuck_derive v1.10.2
+   Compiling ring v0.17.14
+   Compiling nu-experimental v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-experimental)
+   Compiling aws-lc-rs v1.18.1
+   Compiling rustls-pki-types v1.14.0
+   Compiling hashbrown v0.17.1
+   Compiling nu-glob v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-glob)
+   Compiling tracing v0.1.44
+   Compiling foldhash v0.1.5
+   Compiling hashbrown v0.15.5
+   Compiling untrusted v0.9.0
+   Compiling form_urlencoded v1.2.2
+   Compiling zerocopy v0.8.42
+   Compiling fastrand v2.3.0
+   Compiling bytemuck v1.25.0
+   Compiling rustls v0.23.45
+   Compiling zerocopy-derive v0.8.42
+   Compiling subtle v2.6.1
+   Compiling litemap v0.8.1
+   Compiling writeable v0.6.2
+   Compiling openssl-probe v0.2.1
+   Compiling indexmap v2.14.1
+   Compiling lru v0.18.3
+   Compiling itertools v0.14.0
+   Compiling rustls-native-certs v0.8.4
+   Compiling potential_utf v0.1.4
+   Compiling zerotrie v0.2.3
+   Compiling icu_locale_core v2.1.1
+   Compiling icu_normalizer_data v2.1.1
+   Compiling icu_properties_data v2.1.2
+   Compiling num-conv v0.2.2
+   Compiling time-core v0.1.9
+   Compiling icu_collections v2.1.1
+   Compiling chacha20 v0.10.0
+   Compiling time-macros v0.2.32
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.7
+   Compiling deranged v0.5.8
+   Compiling digest v0.10.7
+   Compiling num_threads v0.1.7
+   Compiling powerfmt v0.2.0
+   Compiling rand v0.10.2
+   Compiling md-5 v0.10.6
+   Compiling icu_provider v2.1.1
+   Compiling bytesize v2.7.0
+   Compiling icu_normalizer v2.1.1
+   Compiling icu_properties v2.1.2
+   Compiling atomic v0.6.1
+   Compiling sha1_smol v1.0.1
+   Compiling utf8_iter v1.0.4
+   Compiling nu-utils v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-utils)
+   Compiling static_assertions v1.1.0
+   Compiling rand_core v0.6.4
+   Compiling compact_str v0.9.0
+   Compiling time v0.3.55
+   Compiling serde_urlencoded v0.7.1
+   Compiling uuid v1.26.0
+   Compiling fallible-streaming-iterator v0.1.9
+   Compiling vcpkg v0.2.15
+   Compiling indoc v2.0.7
+   Compiling idna_adapter v1.2.1
+   Compiling nu-system v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-system)
+   Compiling idna v1.1.0
+   Compiling hybrid-array v0.4.13
+   Compiling phf_shared v0.11.3
+   Compiling memmap2 v0.9.10
+   Compiling jiff v0.2.23
+   Compiling url v2.5.8
+   Compiling nu-protocol v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-protocol)
+   Compiling const-oid v0.10.2
+   Compiling hashbrown v0.16.1
+   Compiling linked-hash-map v0.5.6
+   Compiling crypto-common v0.2.2
+   Compiling block-buffer v0.12.1
+   Compiling phf_shared v0.12.1
+   Compiling const_format_proc_macros v0.2.34
+   Compiling crossbeam-channel v0.5.16
+   Compiling minimal-lexical v0.2.1
+   Compiling chrono-tz v0.10.4
+   Compiling getrandom v0.3.4
+   Compiling debug_unsafe v0.1.4
+   Compiling nom v7.1.3
+   Compiling atoi_simd v0.18.1
+   Compiling phf v0.12.1
+   Compiling tokio-macros v2.7.0
+   Compiling cmov v0.5.4
+   Compiling encoding_rs v0.8.35
+   Compiling ctutils v0.4.2
+   Compiling libz-sys v1.1.25
+   Compiling const_format v0.2.35
+   Compiling home v0.5.12
+   Compiling fast-float2 v0.2.3
+   Compiling tokio v1.53.1
+   Compiling http-body v1.0.1
+   Compiling xxhash-rust v0.8.15
+   Compiling ahash v0.8.12
+   Compiling is_debug v1.1.0
+   Compiling digest v0.11.3
+   Compiling bytecount v0.6.9
+   Compiling cpufeatures v0.2.17
+   Compiling ansitok v0.3.0
+   Compiling wayland-sys v0.31.10
+   Compiling blake3 v1.8.3
+   Compiling crossbeam-queue v0.3.13
+   Compiling wayland-backend v0.3.14
+   Compiling thread_local v1.1.9
+   Compiling ppv-lite86 v0.2.21
+   Compiling lazy_static v1.5.0
+   Compiling arrayref v0.3.9
+   Compiling lexopt v0.3.2
+   Compiling constant_time_eq v0.4.2
+   Compiling shadow-rs v2.0.0
+   Compiling ansi-str v0.9.0
+   Compiling http-body-util v0.1.3
+   Compiling rand_chacha v0.3.1
+   Compiling papergrid v0.18.0
+   Compiling quick-xml v0.39.4
+   Compiling base64 v0.23.1
+   Compiling wayland-client v0.31.13
+   Compiling rand v0.8.5
+   Compiling downcast-rs v1.2.1
+   Compiling phf v0.11.3
+   Compiling fixedbitset v0.5.7
+   Compiling phf_generator v0.11.3
+   Compiling petgraph v0.8.3
+   Compiling sha2 v0.11.0
+   Compiling phf_macros v0.11.3
+   Compiling libgit2-sys v0.18.7+1.9.6
+   Compiling fdeflate v0.3.7
+   Compiling tabled v0.22.0
+   Compiling nu-cmd-lang v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-cmd-lang)
+   Compiling wayland-scanner v0.31.9
+   Compiling nom v8.0.0
+   Compiling pxfm v0.1.28
+   Compiling base64 v0.22.1
+   Compiling png v0.18.1
+   Compiling sharded-slab v0.1.7
+   Compiling quick-xml v0.41.0
+   Compiling tempfile v3.27.0
+   Compiling tracing-log v0.2.0
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling gethostname v1.1.0
+   Compiling matchers v0.2.0
+   Compiling darling_core v0.23.0
+   Compiling nu-pretty-hex v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-pretty-hex)
+   Compiling inotify-sys v0.1.5
+   Compiling ucd-trie v0.1.7
+   Compiling x11rb-protocol v0.13.2
+   Compiling byteorder-lite v0.1.0
+   Compiling toml_writer v1.1.2+spec-1.1.0
+   Compiling tree_magic_mini v3.2.2
+   Compiling pastey v0.2.3
+   Compiling pest v2.8.6
+   Compiling inotify v0.11.1
+   Compiling tracing-subscriber v0.3.22
+   Compiling wayland-protocols v0.32.11
+   Compiling doxygen-rs v0.4.2
+   Compiling notify-types v2.1.0
+   Compiling portable-atomic v1.13.1
+   Compiling syn v1.0.109
+   Compiling urlencoding v2.1.3
+   Compiling instability v0.3.11
+   Compiling pest_meta v2.8.6
+   Compiling lmdb-master-sys v0.2.6
+   Compiling rand_core v0.9.5
+   Compiling kasuari v0.4.11
+   Compiling libsqlite3-sys v0.38.2
+   Compiling unicode-truncate v2.0.1
+   Compiling darling_macro v0.23.0
+   Compiling arraydeque v0.5.1
+   Compiling moxcms v0.8.1
+   Compiling critical-section v1.2.0
+   Compiling granit-parser v1.3.0
+   Compiling ratatui-core v0.1.2
+   Compiling darling v0.23.0
+   Compiling x11rb v0.13.2
+   Compiling pest_generator v2.8.6
+   Compiling rand_chacha v0.9.0
+   Compiling encoding_rs_io v0.1.7
+   Compiling bincode v1.3.3
+   Compiling miette-derive v5.10.0
+   Compiling annotate-snippets v0.12.16
+   Compiling num-complex v0.4.6
+   Compiling console v0.16.4
+   Compiling wayland-protocols-wlr v0.3.11
+   Compiling matrixmultiply v0.3.10
+   Compiling bumpalo v3.20.2
+   Compiling file-id v0.2.3
+   Compiling heed-traits v0.20.0
+   Compiling heed v0.22.1
+   Compiling nohash-hasher v0.2.0
+   Compiling unit-prefix v0.5.2
+   Compiling rust_decimal v1.40.0
+   Compiling serde-saphyr v1.3.0
+   Compiling miette v5.10.0
+   Compiling indicatif v0.18.6
+   Compiling zopfli v0.8.3
+   Compiling heed-types v0.21.0
+   Compiling pest_derive v2.8.6
+   Compiling rand v0.9.2
+   Compiling notify v9.0.0-rc.4
+   Compiling image v0.25.10
+   Compiling tokio-util v0.7.18
+   Compiling wl-clipboard-rs v0.9.3
+   Compiling ureq-proto v0.6.1
+   Compiling synchronoise v1.0.1
+   Compiling thread-tree v0.3.3
+   Compiling nu-term-grid v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-term-grid)
+   Compiling hashlink v0.12.0
+   Compiling webpki-roots v1.0.9
+   Compiling globset v0.4.19
+   Compiling pest_consume_macros v1.1.0
+   Compiling better_default v1.0.5
+   Compiling dirs-sys v0.4.1
+   Compiling mime_guess v2.0.5
+   Compiling socks v0.3.4
+   Compiling arboard v3.6.1
+   Compiling line-clipping v0.3.5
+   Compiling toml_datetime v1.1.1+spec-1.1.0
+   Compiling filetime v0.2.29
+   Compiling num_cpus v1.17.0
+   Compiling page_size v0.6.0
+   Compiling is-docker v0.2.0
+   Compiling utf8-zero v0.8.1
+   Compiling v_escape-base v0.1.0
+   Compiling fallible-iterator v0.3.0
+   Compiling bitflags v1.3.2
+   Compiling tower-service v0.3.3
+   Compiling rawpointer v0.2.1
+   Compiling typed-path v0.12.3
+   Compiling mime v0.3.17
+   Compiling symlink v0.1.0
+   Compiling rustix v0.38.44
+   Compiling fff-search v0.11.0
+   Compiling unicode-id v0.3.6
+   Compiling nu-engine v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-engine)
+   Compiling nu-plugin-protocol v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-plugin-protocol)
+   Compiling nu-json v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-json)
+   Compiling markdown v1.0.0
+   Compiling nu-heavy-utils v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-heavy-utils)
+   Compiling tracing-appender v0.2.5
+   Compiling v_htmlescape v0.17.0
+   Compiling is-wsl v0.4.0
+   Compiling pest_consume v1.1.3
+   Compiling ratatui-widgets v0.3.2
+   Compiling dirs v5.0.1
+   Compiling ignore v0.4.29
+   Compiling nu-plugin-core v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-plugin-core)
+   Compiling rusqlite v0.40.2
+   Compiling nu-color-config v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-color-config)
+   Compiling zip v8.6.0
+   Compiling nu-plugin-engine v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-plugin-engine)
+   Compiling nu-table v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-table)
+   Compiling fff-notify-debouncer-full v0.9.4
+   Compiling kdl v4.7.1
+   Compiling notify v8.2.0
+   Compiling parse_datetime v0.16.0
+   Compiling codepage v0.1.2
+   Compiling pori v0.0.0
+   Compiling etcetera v0.10.0
+   Compiling fff-grep v0.11.0
+   Compiling serde_spanned v1.1.1
+   Compiling approx v0.5.1
+   Compiling platform-info v2.0.5
+   Compiling csv-core v0.1.13
+   Compiling mediatype v0.21.0
+   Compiling neo_frizbee v0.13.3
+   Compiling atomic-waker v1.1.2
+   Compiling pathdiff v0.2.3
+   Compiling try-lock v0.2.5
+   Compiling glidesort v0.1.2
+   Compiling winnow v0.7.15
+   Compiling fff-query-parser v0.11.0
+   Compiling smol_str v0.3.6
+   Compiling linux-raw-sys v0.4.15
+   Compiling multipart-rs v0.2.3
+   Compiling want v0.3.1
+   Compiling uu_touch v0.12.0
+   Compiling mq-markdown v0.9.2
+   Compiling h2 v0.4.18
+   Compiling csv v1.4.0
+   Compiling uu_uname v0.12.0
+   Compiling nu-parser v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-parser)
+   Compiling ndarray v0.17.2
+   Compiling toml v1.1.4+spec-1.1.0
+   Compiling notify-debouncer-full v0.7.0
+   Compiling wax v0.7.0
+   Compiling kdl v6.7.1
+   Compiling calamine v0.36.1
+   Compiling dtparse v2.0.1
+   Compiling nu-cmd-base v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-cmd-base)
+   Compiling nuon v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nuon)
+   Compiling reedline v0.52.1
+   Compiling human-date-parser v0.3.1
+   Compiling open v5.4.2
+   Compiling toml_edit v0.25.13+spec-1.1.0
+   Compiling uu_cp v0.12.0
+   Compiling aegis-password-generator v0.1.1
+   Compiling uu_mv v0.12.0
+   Compiling trash v5.2.9
+   Compiling uu_mktemp v0.12.0
+   Compiling oem_cp v2.1.2
+   Compiling devicons v0.6.13
+   Compiling chardetng v1.0.0
+   Compiling md-5 v0.11.0
+   Compiling uu_mkdir v0.12.0
+   Compiling uu_whoami v0.12.0
+   Compiling titlecase v3.6.0
+   Compiling dns-lookup v4.0.1
+   Compiling umask v2.1.0
+   Compiling print-positions v0.6.1
+   Compiling nucleo-matcher v0.3.1
+   Compiling which v8.0.6
+   Compiling quick-xml v0.42.0
+   Compiling roxmltree v0.21.1
+   Compiling httpdate v1.0.3
+   Compiling data-encoding v2.11.0
+   Compiling bracoxide v0.1.8
+   Compiling filesize v0.2.0
+   Compiling alphanumeric-sort v1.5.8
+   Compiling hyper v1.8.1
+   Compiling which v4.4.2
+   Compiling env_filter v1.0.0
+   Compiling ipnet v2.12.0
+   Compiling edit v0.1.5
+   Compiling env_logger v0.11.9
+   Compiling ratatui-macros v0.7.2
+   Compiling ratatui-crossterm v0.1.2
+   Compiling enum_dispatch v0.3.13
+   Compiling hyper-util v0.1.20
+   Compiling edtui-jagged v0.1.13
+   Compiling ratatui v0.30.2
+   Compiling tui-tree-widget v0.24.0
+   Compiling rustc_version v0.4.1
+   Compiling edtui v0.11.2
+   Compiling indexmap v1.9.3
+   Compiling memoffset v0.7.1
+   Compiling is_executable v1.0.6
+   Compiling linkme-impl v0.3.37
+   Compiling hashbrown v0.12.3
+   Compiling nu-std v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-std)
+   Compiling nu-cmd-plugin v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-cmd-plugin)
+   Compiling yaml-rust v0.4.5
+   Compiling convert_case v0.4.0
+   Compiling linkme v0.3.37
+   Compiling nix v0.26.4
+   Compiling derive_more v0.99.20
+   Compiling nu-test-support-macros v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-test-support-macros)
+   Compiling serde_regex v1.2.0
+   Compiling socket2 v0.5.10
+   Compiling nu-explore v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-explore)
+   Compiling nu-test-support v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-test-support)
+   Compiling kitest v0.6.0
+   Compiling sync_wrapper v1.0.2
+   Compiling tower-layer v0.3.3
+   Compiling serde_yaml v0.8.26
+   Compiling tower v0.5.3
+   Compiling stacker v0.1.23
+   Compiling async-trait v0.1.89
+   Compiling futures-executor v0.3.32
+   Compiling futures v0.3.32
+   Compiling rstest_macros v0.27.0
+   Compiling relative-path v1.9.3
+   Compiling iri-string v0.7.10
+   Compiling rle-decode-fast v1.0.3
+   Compiling snap v1.1.1
+   Compiling libflate_lz77 v1.2.0
+   Compiling adler32 v1.2.0
+   Compiling crc-catalog v1.1.1
+   Compiling array-init-cursor v0.2.1
+   Compiling signal-hook v0.4.3
+   Compiling dyn-clone v1.0.20
+   Compiling planus v1.1.1
+   Compiling gatekeeper v3.0.0
+   Compiling crc v2.1.0
+   Compiling libflate v1.4.0
+   Compiling simdutf8 v0.1.5
+   Compiling polars-arrow-format v0.2.1
+   Compiling tower-http v0.6.8
+   Compiling avro-schema v0.3.0
+   Compiling ar_archive_writer v0.5.1
+   Compiling nu-plugin v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-plugin)
+   Compiling slotmap v1.1.1
+   Compiling virtue v0.0.18
+   Compiling half v2.7.1
+   Compiling polars-utils v0.55.2
+   Compiling zstd-sys v2.0.16+zstd.1.5.7
+   Compiling unty v0.0.4
+   Compiling num-derive v0.4.2
+   Compiling psm v0.1.30
+   Compiling bincode_derive v2.0.1
+   Compiling argminmax v0.6.3
+   Compiling rstest v0.27.0
+   Compiling raw-cpuid v11.6.0
+   Compiling lz4-sys v1.11.1+lz4-1.10.0
+   Compiling zstd-safe v7.2.4
+   Compiling http v0.2.12
+   Compiling serde_stacker v0.1.14
+   Compiling polars-buffer v0.55.2
+   Compiling polars-schema v0.55.2
+   Compiling vsimd v0.8.0
+   Compiling bincode v2.0.1
+   Compiling outref v0.5.2
+   Compiling bytes-utils v0.1.4
+   Compiling polars-arrow v0.55.2
+   Compiling base64-simd v0.8.0
+   Compiling http-body v0.4.6
+   Compiling aws-smithy-async v1.3.0
+   Compiling aws-smithy-runtime-api-macros v1.1.0
+   Compiling ethnum v1.5.3
+   Compiling aws-smithy-types v1.6.3
+   Compiling streaming-iterator v0.1.9
+   Compiling polars-compute v0.55.2
+   Compiling phf_shared v0.13.1
+   Compiling strength_reduce v0.2.4
+   Compiling new_debug_unreachable v1.0.6
+   Compiling boxcar v0.2.14
+   Compiling testbins v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/testbins)
+   Compiling polars-core v0.55.2
+   Compiling phf_generator v0.13.1
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling halfbrown v0.4.0
+   Compiling rand_distr v0.6.0
+   Compiling comfy-table v7.2.2
+   Compiling alloc-stdlib v0.2.2
+   Compiling polars-ops v0.55.2
+   Compiling float-cmp v0.10.0
+   Compiling precomputed-hash v0.1.1
+   Compiling diff v0.1.13
+   Compiling yansi v1.0.1
+   Compiling brotli-decompressor v5.0.0
+   Compiling value-trait v0.12.1
+   Compiling async-stream-impl v0.3.6
+   Compiling similar v3.1.0
+   Compiling pretty_assertions v1.4.1
+   Compiling aws-smithy-runtime-api v1.16.0
+   Compiling async-stream v0.3.6
+   Compiling simd-json v0.17.0
+   Compiling polars-parquet-format v0.1.0
+   Compiling streaming-decompression v0.1.2
+   Compiling now v0.1.3
+   Compiling utf-8 v0.7.6
+   Compiling phf_codegen v0.13.1
+   Compiling fs4 v1.1.0
+   Compiling recursive-proc-macro-impl v0.1.1
+   Compiling nu-plugin-test-support v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-plugin-test-support)
+   Compiling crunchy v0.2.4
+   Compiling recursive v0.1.1
+   Compiling aws-types v1.6.0
+   Compiling tiny-keccak v2.0.2
+   Compiling phf_macros v0.13.1
+   Compiling phf_codegen v0.11.3
+   Compiling aws-smithy-schema v0.2.0
+   Compiling brotli v8.0.4
+   Compiling polars-plan v0.55.2
+   Compiling aws-smithy-http v0.64.0
+   Compiling aws-credential-types v1.3.0
+   Compiling aws-smithy-observability v0.3.0
+   Compiling string_cache_codegen v0.5.4
+   Compiling hmac v0.13.0
+   Compiling digest-io v0.1.0
+   Compiling openssl-sys v0.9.116
+   Compiling polars-expr v0.55.2
+   Compiling darling_core v0.24.1
+   Compiling concurrent-queue v2.5.0
+   Compiling parking v2.2.1
+   Compiling mac v0.1.1
+   Compiling aws-sigv4 v1.5.1
+   Compiling markup5ever v0.12.1
+   Compiling futf v0.1.5
+   Compiling phf v0.13.1
+   Compiling event-listener v5.4.1
+   Compiling string_cache_codegen v0.6.1
+   Compiling serde_derive_internals v0.29.1
+   Compiling const-random-macro v0.1.16
+   Compiling event-listener-strategy v0.5.4
+   Compiling web_atoms v0.2.3
+   Compiling tendril v0.4.3
+   Compiling aws-smithy-json v0.63.0
+   Compiling string_cache v0.8.9
+   Compiling fluent-uri v0.1.4
+   Compiling polars-stream v0.55.2
+   Compiling serde_repr v0.1.20
+   Compiling curl-sys v0.4.85+curl-8.18.0
+   Compiling arc-swap v1.9.2
+   Compiling rmcp v3.4.0
+   Compiling regex-lite v0.1.9
+   Compiling xmlparser v0.13.6
+   Compiling lsp-types v0.97.0
+   Compiling async-channel v2.5.0
+   Compiling aws-smithy-xml v0.62.0
+   Compiling const-random v0.1.18
+   Compiling string_cache v0.9.0
+   Compiling tokio-stream v0.1.18
+   Compiling sse-stream v0.2.5
+   Compiling schemars_derive v1.2.1
+   Compiling polars-lazy v0.55.2
+   Compiling html5ever v0.27.0
+   Compiling memoffset v0.6.5
+   Compiling dtoa v1.0.11
+   Compiling dtoa-short v0.3.5
+   Compiling aws-smithy-query v0.62.0
+   Compiling dlv-list v0.5.2
+   Compiling selectors v0.38.0
+   Compiling tendril v0.5.0
+   Compiling chumsky v0.12.0
+   Compiling charset v0.1.5
+   Compiling lsp-server v0.10.0
+   Compiling assert-json-diff v2.0.2
+   Compiling darling_macro v0.24.1
+   Compiling polars v0.55.2
+   Compiling cssparser-macros v0.7.0
+   Compiling schemars v1.2.1
+   Compiling curl v0.4.49
+   Compiling hashbrown v0.14.5
+   Compiling darling v0.24.1
+   Compiling rmcp-macros v3.4.0
+   Compiling quoted_printable v0.5.1
+   Compiling cssparser v0.37.0
+   Compiling winresource v0.1.31
+   Compiling markup5ever v0.39.0
+   Compiling ordered-multimap v0.7.3
+   Compiling xml5ever v0.18.1
+   Compiling nu-dap v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-dap)
+   Compiling sha1 v0.10.6
+   Compiling num-rational v0.4.2
+   Compiling num-iter v0.1.45
+   Compiling servo_arc v0.4.3
+   Compiling openssl-probe v0.1.6
+   Compiling peresil v0.3.0
+   Compiling heapless v0.9.2
+   Compiling predicates-core v1.0.10
+   Compiling typed-arena v1.7.0
+   Compiling sxd-document v0.3.2
+   Compiling num v0.4.3
+   Compiling markup5ever_rcdom v0.3.0
+   Compiling rust-ini v0.21.3
+   Compiling nix v0.23.2
+   Compiling nu v0.116.1 (/home/dinakaran/qrc-bench/nushell)
+   Compiling html5ever v0.39.0
+   Compiling sqlparser v0.61.0
+   Compiling rfc2047-decoder v1.1.0
+   Compiling plist v1.10.0
+   Compiling ical v0.11.0
+   Compiling eml-parser v0.1.5
+   Compiling hash32 v0.3.1
+   Compiling assert_cmd v2.2.2
+   Compiling termcolor v1.4.1
+   Compiling doc-comment v0.3.4
+   Compiling quick-error v1.2.3
+   Compiling similar v2.7.0
+   Compiling difflib v0.4.0
+   Compiling ego-tree v0.11.0
+   Compiling lz4 v1.28.1
+   Compiling termtree v0.5.1
+   Compiling predicates v3.1.4
+   Compiling shared_memory v0.12.4
+   Compiling predicates-tree v1.0.13
+   Compiling mockito v1.7.2
+   Compiling scraper v0.27.0
+   Compiling simplelog v0.12.2
+   Compiling sxd-xpath v0.4.2
+   Compiling nu-cmd-extra v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-cmd-extra)
+   Compiling webpage v2.0.1
+   Compiling quickcheck v1.1.0
+   Compiling rstest_reuse v0.7.0
+   Compiling rand_chacha v0.10.0
+   Compiling zstd v0.13.3
+   Compiling lsp-textdocument v0.5.0
+   Compiling colored v2.2.0
+   Compiling jsonrpc-types v0.3.3
+   Compiling quickcheck_macros v1.2.0
+   Compiling ctrlc v3.5.2
+   Compiling wait-timeout v0.2.1
+   Compiling glob-match v0.2.1
+   Compiling gjson v0.8.1
+   Compiling nu_plugin_formats v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_formats)
+   Compiling nu_plugin_example v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_example)
+   Compiling nu_plugin_inc v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_inc)
+   Compiling tango-bench v0.8.0
+   Compiling nu_plugin_query v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_query)
+   Compiling nu_plugin_custom_values v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_custom_values)
+   Compiling git2 v0.21.0
+   Compiling nu-mcp v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-mcp)
+   Compiling nu_plugin_gstat v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_gstat)
+   Compiling nu_plugin_stress_internals v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_stress_internals)
+   Compiling rustls-webpki v0.103.15
+   Compiling rustls-platform-verifier v0.7.0
+   Compiling tokio-rustls v0.26.4
+   Compiling ureq v3.4.0
+   Compiling hyper-rustls v0.27.7
+   Compiling reqwest v0.12.28
+   Compiling aws-smithy-http-client v1.4.0
+   Compiling update-informer v1.3.0
+   Compiling nu-command v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-command)
+   Compiling aws-smithy-runtime v1.14.0
+   Compiling object_store v0.13.2
+   Compiling aws-runtime v1.9.2
+   Compiling aws-sdk-sts v1.114.0
+   Compiling aws-sdk-ssooidc v1.111.0
+   Compiling aws-sdk-sso v1.109.0
+   Compiling aws-config v1.12.0
+   Compiling polars-error v0.55.2
+   Compiling polars-config v0.55.2
+   Compiling polars-async v0.55.2
+   Compiling polars-dtype v0.55.2
+   Compiling nu-cli v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-cli)
+   Compiling nu-tui v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-tui)
+   Compiling polars-row v0.55.2
+   Compiling polars-json v0.55.2
+   Compiling polars-parquet v0.55.2
+   Compiling nu-lsp v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu-lsp)
+   Compiling polars-time v0.55.2
+   Compiling polars-io v0.55.2
+   Compiling polars-ooc v0.55.2
+   Compiling polars-mem-engine v0.55.2
+   Compiling nu_plugin_polars v0.116.1 (/home/dinakaran/qrc-bench/nushell/crates/nu_plugin_polars)
+      Timing report saved to /home/dinakaran/qrc-bench/nushell/target/cargo-timings/cargo-timing-20261022T180320738Z-28dfa57ea5126350.html
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5m 42s
+  Executable unittests src/main.rs (target/debug/deps/nu-cd9fe96f9a327e40)
+  Executable tests/main.rs (target/debug/deps/tests-f5c86774be197ccd)
+  Executable unittests src/lib.rs (target/debug/deps/nu_cli-e5bef67f212870f1)
+  Executable tests/main.rs (target/debug/deps/tests-0784c1ef5334875a)
+  Executable unittests src/lib.rs (target/debug/deps/nu_cmd_base-0fe892f8fbf81665)
+  Executable unittests src/lib.rs (target/debug/deps/nu_cmd_extra-27abc8f8fb6ba60c)
+  Executable tests/main.rs (target/debug/deps/tests-be50607d7ce565ec)
+  Executable unittests src/lib.rs (target/debug/deps/nu_cmd_lang-e8a0ec87a8e533f9)
+  Executable tests/main.rs (target/debug/deps/main-07620d9ac44ecae0)
+  Executable unittests src/lib.rs (target/debug/deps/nu_cmd_plugin-b504efe27e9f7618)
+  Executable unittests src/lib.rs (target/debug/deps/nu_color_config-3add3765239d0e8c)
+  Executable tests/main.rs (target/debug/deps/tests-b2c5634c7e97c47e)
+  Executable unittests src/lib.rs (target/debug/deps/nu_command-6983681054c1b62c)
+  Executable tests/main.rs (target/debug/deps/tests-2b66f8cb7cd8f83a)
+  Executable unittests src/lib.rs (target/debug/deps/nu_config-8de69b1d93009142)
+  Executable unittests src/lib.rs (target/debug/deps/nu_dap-16cca9029eb27dc2)
+  Executable tests/dap.rs (target/debug/deps/dap-8b28f89b8f6d6dca)
+  Executable unittests src/lib.rs (target/debug/deps/nu_derive_value-f9162d0798b5c4e2)
+  Executable unittests src/lib.rs (target/debug/deps/nu_engine-93d377b4ee4d4129)
+  Executable unittests src/lib.rs (target/debug/deps/nu_experimental-3f4f09fd10322037)
+  Executable unittests src/lib.rs (target/debug/deps/nu_explore-c5e5a5d9505814f1)
+  Executable unittests src/lib.rs (target/debug/deps/nu_glob-2e73b3b8285b6771)
+  Executable unittests src/lib.rs (target/debug/deps/nu_heavy_utils-f09db80e8851052b)
+  Executable unittests src/lib.rs (target/debug/deps/nu_json-f603c2b92806b314)
+  Executable tests/main.rs (target/debug/deps/main-9411ace8d36369a8)
+  Executable unittests src/lib.rs (target/debug/deps/nu_lsp-71dc935f0ce428b7)
+  Executable unittests src/lib.rs (target/debug/deps/nu_mcp-3c9503df093302be)
+  Executable unittests src/lib.rs (target/debug/deps/nu_parser-badf011af2bbb52f)
+  Executable tests/test_lex.rs (target/debug/deps/test_lex-f0dfe8beb4f5f09b)
+  Executable tests/test_parser.rs (target/debug/deps/test_parser-5f84dbc254fbd3a4)
+  Executable tests/test_parser_unicode_escapes.rs (target/debug/deps/test_parser_unicode_escapes-8bde6b3b45725f72)
+  Executable unittests src/lib.rs (target/debug/deps/nu_path-5ddd16933c871873)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin-aabe6e7e25a6402f)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_core-afcb57be3a8fcbc6)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_engine-1a6bbb53b4e612fe)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_protocol-d618b294c14b5b3a)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_test_support-e00611c60461db26)
+  Executable tests/main.rs (target/debug/deps/main-1f8a489efc6f41a7)
+  Executable unittests src/lib.rs (target/debug/deps/nu_pretty_hex-2823804e2d13f87a)
+  Executable tests/tests.rs (target/debug/deps/tests-8e61205f49151573)
+  Executable unittests src/lib.rs (target/debug/deps/nu_protocol-9c8cfae26b41194a)
+  Executable tests/main.rs (target/debug/deps/tests-8f9f0eac7bdae5a5)
+  Executable unittests src/lib.rs (target/debug/deps/nu_std-c9f0fba4c59f0346)
+  Executable unittests src/lib.rs (target/debug/deps/nu_system-c3929b5727efd09f)
+  Executable unittests src/lib.rs (target/debug/deps/nu_table-0cea6d22b350ca52)
+  Executable tests/common.rs (target/debug/deps/common-a776b267497cae12)
+  Executable tests/constrains.rs (target/debug/deps/constrains-71a5be579be3cfe9)
+  Executable tests/expand.rs (target/debug/deps/expand-8c55ecd3c3c1ad45)
+  Executable tests/style.rs (target/debug/deps/style-65c5c81a5db3b398)
+  Executable unittests src/lib.rs (target/debug/deps/nu_term_grid-63f5a6ff2b05a41b)
+  Executable unittests src/lib.rs (target/debug/deps/nu_test_support-f453585a5134dc3b)
+  Executable tests/get_system_locale.rs (target/debug/deps/get_system_locale-56846b2b713cd36e)
+  Executable tests/test_cell_path_macro.rs (target/debug/deps/test_cell_path_macro-24138026f5ca1699)
+  Executable unittests src/lib.rs (target/debug/deps/nu_test_support_macros-7688c8d9050becb8)
+  Executable unittests src/lib.rs (target/debug/deps/nu_tui-378dedb3265b86a4)
+  Executable tests/main.rs (target/debug/deps/tests-cc789dc94b3cbffd)
+  Executable unittests src/lib.rs (target/debug/deps/nu_utils-cc747ad0b9e69100)
+  Executable unittests src/main.rs (target/debug/deps/utils-d891a146e4855a7e)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_custom_values-08a5d0f62eb9a901)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_example-04ce29e872ca40dd)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_example-f71325615a218d8f)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_formats-33fc9e2ff541330e)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_formats-707d31329e01fd36)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_gstat-979c07a6ea4034e5)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_gstat-6b47f35ce74d278a)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_inc-aaf98153a6b5142f)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_inc-1d1748c06fdfbda5)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_polars-d56266988e9f043d)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_polars-4754e95edafcdae9)
+  Executable unittests src/lib.rs (target/debug/deps/nu_plugin_query-d97142ce398e7381)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_query-b2e209ed9214e473)
+  Executable unittests src/main.rs (target/debug/deps/nu_plugin_stress_internals-1eb0804faa3e8d36)
+  Executable unittests src/lib.rs (target/debug/deps/nuon-e301b9e9768af736)
+  Executable unittests src/lib.rs (target/debug/deps/testbins-9a548ddbc9640a6c)
+  Executable unittests src/bin/chop.rs (target/debug/deps/chop-8a4483a8aad67011)
+  Executable unittests src/bin/cococo.rs (target/debug/deps/cococo-9a9aaa49963e39de)
+  Executable unittests src/bin/echo_env.rs (target/debug/deps/echo_env-1c4a4cdf8aed6784)
+  Executable unittests src/bin/echo_env_mixed.rs (target/debug/deps/echo_env_mixed-4dd75d1c9bcc7d57)
+  Executable unittests src/bin/echo_env_stderr.rs (target/debug/deps/echo_env_stderr-556f96882a745bc3)
+  Executable unittests src/bin/echo_env_stderr_fail.rs (target/debug/deps/echo_env_stderr_fail-514d0338f8d292eb)
+  Executable unittests src/bin/fail.rs (target/debug/deps/fail-bf5b850f499c983d)
+  Executable unittests src/bin/iecho.rs (target/debug/deps/iecho-897a6815c1a376a6)
+  Executable unittests src/bin/input_bytes_length.rs (target/debug/deps/input_bytes_length-bf5a179313316f36)
+  Executable unittests src/bin/meow.rs (target/debug/deps/meow-82414bf77ba90651)
+  Executable unittests src/bin/meowb.rs (target/debug/deps/meowb-10e73ef80ebb4ed8)
+  Executable unittests src/bin/nonu.rs (target/debug/deps/nonu-7c4a5606abc7e912)
+  Executable unittests src/bin/relay.rs (target/debug/deps/relay-0577cf80f2f93f9d)
+  Executable unittests src/bin/repeat_bytes.rs (target/debug/deps/repeat_bytes-c573ae70f8ce821c)
+  Executable unittests src/bin/repeater.rs (target/debug/deps/repeater-aba823468c700f3d)

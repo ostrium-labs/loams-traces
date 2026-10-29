@@ -1,0 +1,1 @@
+{"bench":"http-lean","path":"/healthz","conns":512,"depth":1,"requests":895787,"errors":0,"rps":178871.5510980798,"batch_round_trip_sampled":{"max_us":31323,"p99_us":17296,"p50_us":1948,"p999_us":25042}}
